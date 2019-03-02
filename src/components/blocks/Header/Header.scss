@@ -1,0 +1,10 @@
+@import '../../../constants';
+
+.app-header {
+    padding: $gutter-size--large;
+
+    .app-logo {
+      max-height: 33px;
+    }
+    border-bottom: $border-standard;
+  }

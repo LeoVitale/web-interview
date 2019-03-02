@@ -1,15 +1,5 @@
 @import './constants.scss';
 
-header {
-  padding: $gutter-size--large;
-
-  img {
-    max-height: 33px;
-  }
-
-  border-bottom: $border-standard;
-}
-
 .booking-container {
   padding-left: 12px;
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-
+import { hot } from 'react-hot-loader';
 import logo from './logo.png'
+import Header from './components/blocks/Header';
 import { API_ENDPOINT } from './config'
 
 import './App.scss'
@@ -20,13 +21,11 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <header className="app-header">
-          <img src={logo} className="app-logo" alt="logo" />
-        </header>
+        <Header logo={logo}/>
         <h1>This is where your code goes!</h1>
       </div>
     )
   }
 }
 
-export default App
+export default hot(module)(App);

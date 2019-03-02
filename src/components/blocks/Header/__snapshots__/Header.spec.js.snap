@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render Header as expected 1`] = `
+<Header>
+  <header
+    className="app-header"
+  >
+    <img
+      alt="logo"
+      className="app-logo"
+    />
+  </header>
+</Header>
+`;
