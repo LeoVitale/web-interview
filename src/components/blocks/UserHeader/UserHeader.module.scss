@@ -1,0 +1,14 @@
+@import 'styles/_constants.scss';
+
+.userHeader {
+  span {
+    display: block;
+    &.title {
+      font-size: 1.6em;
+    }
+    &.subheader {
+      font-size: 1.4em;
+      color: $transparent-grey;
+    }
+  }
+}
