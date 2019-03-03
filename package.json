@@ -37,7 +37,6 @@
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.10.0",
     "enzyme-to-json": "^3.3.5",
-    "eslint": "^5.15.0",
     "eslint-config-react-app": "^3.0.7",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-flowtype": "^3.4.2",
@@ -67,6 +66,12 @@
       "src/components/blocks/Header/index.js",
       "src/components/blocks/Button/index.js",
       "src/registerServiceWorker.js"
-    ]
+    ],
+    "moduleNameMapper": {
+      "^components(.*)$": "<rootDir>/src/components$1",
+      "^containers(.*)$": "<rootDir>/src/containers$1",
+      "^styles(.*)$": "<rootDir>/src/styles$1",
+      "^services(.*)$": "<rootDir>/src/services$1"
+    }
   }
 }

@@ -1,52 +1,51 @@
 @font-face {
     font-family: 'Visuelt';
-    src: url('~/Visuelt-Regular.eot');
+    src: url('./styles/fonts/Visuelt-Regular.eot');
     src: local('Visuelt-Regular'),
-        url('~/Visuelt-Regular.eot?#iefix') format('embedded-opentype'),
-        url('~/Visuelt-Regular.woff2') format('woff2'),
-        url('~/Visuelt-Regular.woff') format('woff'),
-        url('~/Visuelt-Regular.ttf') format('truetype'),
-        url('~/Visuelt-Regular.svg#Visuelt-Regular') format('svg');
+        url('./styles/fonts/Visuelt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./styles/fonts/Visuelt-Regular.woff2') format('woff2'),
+        url('./styles/fonts/Visuelt-Regular.woff') format('woff'),
+        url('./styles/fonts/Visuelt-Regular.ttf') format('truetype'),
+        url('./styles/fonts/Visuelt-Regular.svg#Visuelt-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+  }
 
-@font-face {
+  @font-face {
     font-family: 'Visuelt';
-    src: url('~/Visuelt-Bold.eot');
+    src: url('./styles/fonts/Visuelt-Bold.eot');
     src: local('Visuelt Bold'), local('Visuelt-Bold'),
-        url('~/Visuelt-Bold.eot?#iefix') format('embedded-opentype'),
-        url('~/Visuelt-Bold.woff2') format('woff2'),
-        url('~/Visuelt-Bold.woff') format('woff'),
-        url('~/Visuelt-Bold.ttf') format('truetype'),
-        url('~/Visuelt-Bold.svg#Visuelt-Bold') format('svg');
+        url('./styles/fonts/Visuelt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./styles/fonts/Visuelt-Bold.woff2') format('woff2'),
+        url('./styles/fonts/Visuelt-Bold.woff') format('woff'),
+        url('./styles/fonts/Visuelt-Bold.ttf') format('truetype'),
+        url('./styles/fonts/Visuelt-Bold.svg#Visuelt-Bold') format('svg');
     font-weight: bold;
     font-style: normal;
-}
+  }
 
-@font-face {
+  @font-face {
     font-family: 'Visuelt';
-    src: url('~/Visuelt-Light.eot');
+    src: url('./styles/fonts/Visuelt-Light.eot');
     src: local('Visuelt Light'), local('Visuelt-Light'),
-        url('~/Visuelt-Light.eot?#iefix') format('embedded-opentype'),
-        url('~/Visuelt-Light.woff2') format('woff2'),
-        url('~/Visuelt-Light.woff') format('woff'),
-        url('~/Visuelt-Light.ttf') format('truetype'),
-        url('~/Visuelt-Light.svg#Visuelt-Light') format('svg');
+        url('./styles/fonts/Visuelt-Light.eot?#iefix') format('embedded-opentype'),
+        url('./styles/fonts/Visuelt-Light.woff2') format('woff2'),
+        url('./styles/fonts/Visuelt-Light.woff') format('woff'),
+        url('./styles/fonts/Visuelt-Light.ttf') format('truetype'),
+        url('./styles/fonts/Visuelt-Light.svg#Visuelt-Light') format('svg');
     font-weight: 300;
     font-style: normal;
-}
+  }
 
-@font-face {
+  @font-face {
     font-family: 'Visuelt';
-    src: url('~/Visuelt-Medium.eot');
+    src: url('./styles/fonts/Visuelt-Medium.eot');
     src: local('Visuelt-Medium'),
-        url('~/Visuelt-Medium.eot?#iefix') format('embedded-opentype'),
-        url('~/Visuelt-Medium.woff2') format('woff2'),
-        url('~/Visuelt-Medium.woff') format('woff'),
-        url('~/Visuelt-Medium.ttf') format('truetype'),
-        url('~/Visuelt-Medium.svg#Visuelt-Medium') format('svg');
+        url('./styles/fonts/Visuelt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./styles/fonts/Visuelt-Medium.woff2') format('woff2'),
+        url('./styles/fonts/Visuelt-Medium.woff') format('woff'),
+        url('./styles/fonts/Visuelt-Medium.ttf') format('truetype'),
+        url('./styles/fonts/Visuelt-Medium.svg#Visuelt-Medium') format('svg');
     font-weight: 500;
     font-style: normal;
-}
-
+  }
