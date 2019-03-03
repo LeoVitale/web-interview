@@ -1,14 +1,116 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Header /> should render Header as expected 1`] = `
-<Header>
-  <header
-    className="app-header"
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
   >
-    <img
-      alt="logo"
-      className="app-logo"
-    />
-  </header>
-</Header>
+    <Header>
+      <header
+        className="appHeader"
+      >
+        <img
+          alt="logo"
+          className="appLogo"
+        />
+        <nav
+          className="menu"
+        >
+          <MenuItem
+            label="Book"
+            to="/new-appointments"
+          >
+            <Link
+              className="menuItem"
+              replace={false}
+              to="/new-appointments"
+            >
+              <a
+                className="menuItem"
+                href="/new-appointments"
+                onClick={[Function]}
+              >
+                <i />
+                <span>
+                  Book
+                </span>
+              </a>
+            </Link>
+          </MenuItem>
+          <MenuItem
+            label="Appointments"
+            to="/"
+          >
+            <Link
+              className="menuItem"
+              replace={false}
+              to="/"
+            >
+              <a
+                className="menuItem"
+                href="/"
+                onClick={[Function]}
+              >
+                <i />
+                <span>
+                  Appointments
+                </span>
+              </a>
+            </Link>
+          </MenuItem>
+          <MenuItem
+            label="Family Members"
+            to="/family-member"
+          >
+            <Link
+              className="menuItem"
+              replace={false}
+              to="/family-member"
+            >
+              <a
+                className="menuItem"
+                href="/family-member"
+                onClick={[Function]}
+              >
+                <i />
+                <span>
+                  Family Members
+                </span>
+              </a>
+            </Link>
+          </MenuItem>
+          <Avatar>
+            <div
+              className="avatar"
+            >
+              <img
+                alt=""
+                src="https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
+              />
+            </div>
+          </Avatar>
+        </nav>
+      </header>
+    </Header>
+  </Router>
+</BrowserRouter>
 `;
