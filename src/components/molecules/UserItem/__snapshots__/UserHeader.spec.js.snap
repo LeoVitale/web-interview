@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserItem /> should render UserItem as expected 1`] = `
+<UserItem>
+  <div
+    className="userItem"
+  >
+    <div
+      className="userData"
+    >
+      <Avatar>
+        <div
+          className="avatar"
+        >
+          <img
+            alt=""
+            src="https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
+          />
+        </div>
+      </Avatar>
+      <UserHeader
+        subheader="Teste"
+        title="Leonardo Vitale"
+      >
+        <div
+          className="userHeader"
+        >
+          <span
+            className="title"
+          >
+            Leonardo Vitale
+          </span>
+          <span
+            className="subheader"
+          >
+            Teste
+          </span>
+        </div>
+      </UserHeader>
+    </div>
+    <div
+      className="actions"
+    >
+      change
+    </div>
+  </div>
+</UserItem>
+`;
