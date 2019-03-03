@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Avatar /> should render Avatar as expected 1`] = `
+<Avatar>
+  <div
+    className="avatar"
+  >
+    <img
+      alt=""
+      src="https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
+    />
+  </div>
+</Avatar>
+`;
