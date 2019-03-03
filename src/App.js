@@ -1,10 +1,11 @@
+
 import React, { Component } from 'react'
 import { hot } from 'react-hot-loader';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import logo from './logo.png'
-import Header from './components/blocks/Header';
-import Appointments from './containers/Appointments';
-import NewAppointments from './containers/NewAppointments';
+import Header from 'components/blocks/Header';
+import Appointments from 'containers/Appointments';
+import NewAppointments from 'containers/NewAppointments';
 import { API_ENDPOINT } from './config'
 
 import './App.scss'

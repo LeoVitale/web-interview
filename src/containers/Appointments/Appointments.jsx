@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { appointments } from 'services';
+class Appointments extends Component {
+  componentDidMount() {
+    appointments()
+      .then((response) => {
+        console.log('ddd');
+        console.log(response);
 
-const Appointments = () => {
-  return (
-    <div>
-      Appointments
-    </div>
-  );
-};
+        // TODO: Handle response here
+      })
+      .catch(() => {
+        // TODO: Handle error here
+      })
+  }
+
+  render() {
+    return (
+      <div>
+
+      </div>
+    );
+  }
+}
 
 export default Appointments;

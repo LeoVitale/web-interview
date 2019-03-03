@@ -3,6 +3,7 @@ const {
   addBabelPlugins,
   addWebpackAlias,
 } = require('customize-cra');
+const path = require("path");
 
 module.exports = override(
   ...addBabelPlugins(
@@ -10,6 +11,8 @@ module.exports = override(
   ),
   addWebpackAlias({
     'react-dom': '@hot-loader/react-dom',
-    components: './src/components',
+    components: path.resolve(__dirname, 'src/components'),
+    services: path.resolve(__dirname, 'src/services'),
+    containers: path.resolve(__dirname, 'src/containers'),
   })
 );
