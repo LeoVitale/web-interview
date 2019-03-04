@@ -1,0 +1,25 @@
+@import 'styles/_constants.scss';
+
+.radio {
+  display: inline-block;
+  font-size: 1.6em;
+  margin-right: 10px;
+  label {
+    padding: 4px 10px;
+    border: 1px solid $light-grey;
+    color: $light-grey;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer;
+    display: block;
+    transition: all 0.3s ease-in-out;
+  }
+  input {
+    display: none;
+  }
+  input:checked + label {
+    border: 1px solid $positive;
+    background-color: $positive;
+    color: white;
+  }
+}
