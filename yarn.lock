@@ -7196,6 +7196,11 @@ mkdirp@0.5.1, mkdirp@0.5.x, "mkdirp@>=0.5 0", mkdirp@^0.5.0, mkdirp@^0.5.1, mkdi
   dependencies:
     minimist "0.0.8"
 
+moment@^2.24.0:
+  version "2.24.0"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
+  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
+
 moo@^0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/moo/-/moo-0.4.3.tgz#3f847a26f31cf625a956a87f2b10fbc013bfd10e"
@@ -9217,6 +9222,11 @@ react-test-renderer@^16.0.0-0:
     prop-types "^15.6.2"
     react-is "^16.8.3"
     scheduler "^0.13.3"
+
+react-use-form-state@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/react-use-form-state/-/react-use-form-state-0.7.0.tgz#122acae8287f01929b1001ac626c854a05ea21b3"
+  integrity sha512-aF1ycG+3lVcFjPC/2k3vjPUFeqAq4EupvxAlOQKMjjM35+ZPN1H7WwjG+Fr5EspQv3qs5nN5nojuW3jC/UEVSg==
 
 react@^16.8.3:
   version "16.8.3"
