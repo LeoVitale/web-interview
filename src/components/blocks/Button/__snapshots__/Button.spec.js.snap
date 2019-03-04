@@ -2,8 +2,8 @@
 
 exports[`<Button /> should render Button as expected 1`] = `
 <Button>
-  <div>
-    Button
-  </div>
+  <button
+    className="button"
+  />
 </Button>
 `;
