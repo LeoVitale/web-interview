@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> should render TextArea as expected 1`] = `
+<TextArea>
+  <div
+    className="textArea"
+  >
+    <textarea />
+  </div>
+</TextArea>
+`;
