@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import moment from 'moment'
 
-import Radio from 'components/blocks/Radio'
-import Button from 'components/blocks/Button'
-import TextArea from 'components/blocks/TextArea'
+import Radio from 'components/atoms/Radio'
+import Button from 'components/atoms/Button'
+import TextArea from 'components/atoms/TextArea'
 
 import { availableSlots } from 'services'
 moment.locale('gb')

@@ -1,6 +1,6 @@
 import React from 'react';
-import MenuItem from 'components/blocks/MenuItem';
-import Avatar from 'components/blocks/Avatar';
+import MenuItem from 'components/atoms/MenuItem';
+import Avatar from 'components/atoms/Avatar';
 import styles from  './Header.module.scss';
 
 const Header = ({ logo }) => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import Avatar from 'components/blocks/Avatar';
-import UserHeader from 'components/blocks/UserHeader';
+import Avatar from 'components/atoms/Avatar';
+import UserHeader from 'components/atoms/UserHeader';
 import styles from  './UserItem.module.scss';
 
 const UserItem = () => {
