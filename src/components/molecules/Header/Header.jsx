@@ -11,7 +11,7 @@ const Header = ({ logo }) => {
       <nav className={menu}>
         <MenuItem label="Book" to="/new-appointments" />
         <MenuItem label="Appointments" to="/" />
-        <MenuItem label="Family Members" to="/family-member" />
+        <MenuItem label="Family Members" to="/family-members" />
         <Avatar />
       </nav>
     </header>

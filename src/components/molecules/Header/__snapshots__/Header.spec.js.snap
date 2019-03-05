@@ -79,16 +79,16 @@ exports[`<Header /> should render Header as expected 1`] = `
           </MenuItem>
           <MenuItem
             label="Family Members"
-            to="/family-member"
+            to="/family-members"
           >
             <Link
               className="menuItem"
               replace={false}
-              to="/family-member"
+              to="/family-members"
             >
               <a
                 className="menuItem"
-                href="/family-member"
+                href="/family-members"
                 onClick={[Function]}
               >
                 <i />
