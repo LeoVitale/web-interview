@@ -1,1 +1,1 @@
-export { default } from './NewAppointments.jsx';
+export { default } from './NewAppointments.jsx'

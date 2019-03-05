@@ -1,14 +1,14 @@
+import React, { Component } from 'react'
+import { hot } from 'react-hot-loader'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import logo from './logo.png'
+import Header from 'components/molecules/Header'
+import Appointments from 'containers/Appointments'
+import NewAppointments from 'containers/NewAppointments'
+import FamilyMembers from 'containers/FamilyMembers'
+import { API_ENDPOINT } from './config'
 
-import React, { Component } from 'react';
-import { hot } from 'react-hot-loader';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import logo from './logo.png';
-import Header from 'components/atoms/Header';
-import Appointments from 'containers/Appointments';
-import NewAppointments from 'containers/NewAppointments';
-import { API_ENDPOINT } from './config';
-
-import './App.scss';
+import './App.scss'
 
 class App extends Component {
   componentDidMount() {
@@ -26,13 +26,14 @@ class App extends Component {
     return (
       <Router className="app">
         <div>
-          <Header logo={logo}/>
+          <Header logo={logo} />
           <Route exact path="/" component={Appointments} />
           <Route path="/new-appointments" component={NewAppointments} />
+          <Route path="/family-members" component={FamilyMembers} />
         </div>
       </Router>
     )
   }
 }
 
-export default hot(module)(App);
+export default hot(module)(App)

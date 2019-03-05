@@ -1,11 +1,12 @@
-import React from "react";
-import styles from "./Modal.module.scss";
+import React from 'react'
+import PropTypes from 'prop-types'
+import styles from './Modal.module.scss'
 
 const Modal = ({ children, open, onClose }) => {
-  const { modal, overlay, header, content } = styles;
+  const { modal, overlay, header, content } = styles
 
   if (!open) {
-    return null;
+    return null
   }
 
   return (
@@ -17,7 +18,13 @@ const Modal = ({ children, open, onClose }) => {
         <div className={content}>{children}</div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Modal;
+Modal.propTypes = {
+  children: PropTypes.node.isRequired,
+  open: PropTypes.bool.isRequired,
+  onClose: PropTypes.func.isRequired,
+}
+
+export default Modal

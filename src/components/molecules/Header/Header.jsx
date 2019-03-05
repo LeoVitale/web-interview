@@ -1,10 +1,11 @@
-import React from 'react';
-import MenuItem from 'components/atoms/MenuItem';
-import Avatar from 'components/atoms/Avatar';
-import styles from  './Header.module.scss';
+import React from 'react'
+import PropTypes from 'prop-types'
+import MenuItem from 'components/atoms/MenuItem'
+import Avatar from 'components/atoms/Avatar'
+import styles from './Header.module.scss'
 
 const Header = ({ logo }) => {
-  const { appHeader, appLogo, menu } = styles;
+  const { appHeader, appLogo, menu } = styles
   return (
     <header className={appHeader}>
       <img src={logo} className={appLogo} alt="logo" />
@@ -18,4 +19,8 @@ const Header = ({ logo }) => {
   )
 }
 
-export default Header;
+Header.propTypes = {
+  logo: PropTypes.string.isRequired,
+}
+
+export default Header

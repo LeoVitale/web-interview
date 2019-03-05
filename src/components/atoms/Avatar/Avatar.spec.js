@@ -1,11 +1,11 @@
-import React from 'react';
-import { mount } from 'enzyme';
-import Avatar from './Avatar.jsx';
+import React from 'react'
+import { mount } from 'enzyme'
+import Avatar from './Avatar.jsx'
 
 describe('<Avatar />', () => {
-  const avatar = mount(<Avatar />);
+  const avatar = mount(<Avatar />)
 
   it('should render Avatar as expected', () => {
-    expect(avatar).toMatchSnapshot();
-  });
-});
+    expect(avatar).toMatchSnapshot()
+  })
+})

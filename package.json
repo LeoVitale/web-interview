@@ -31,6 +31,7 @@
     "normalize.css": "^8.0.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
+    "react-grid-system": "^4.4.3",
     "react-router-dom": "^4.3.1",
     "react-use-form-state": "^0.7.0"
   },

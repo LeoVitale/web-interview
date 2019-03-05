@@ -1,13 +1,18 @@
-import React from 'react';
-import styles from './Button.module.scss';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styles from './Button.module.scss'
 
-const Button = ({ children, ...props}) => {
-  const { button } = styles;
+const Button = ({ children, ...props }) => {
+  const { button } = styles
   return (
     <button className={button} {...props}>
       {children}
     </button>
-  );
-};
+  )
+}
 
-export default Button;
+Button.propTypes = {
+  children: PropTypes.node.isRequired,
+}
+
+export default Button

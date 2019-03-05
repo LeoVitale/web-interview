@@ -1,13 +1,16 @@
-import React from 'react';
-import styles from './TextArea.module.scss';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styles from './TextArea.module.scss'
 
-const TextArea = (props) => {
-  const { textArea } = styles;
+const TextArea = props => {
+  const { textArea } = styles
   return (
     <div className={textArea}>
-      <textarea {...props}></textarea>
+      <textarea {...props} />
     </div>
-  );
-};
+  )
+}
 
-export default TextArea;
+TextArea.propTypes = {}
+
+export default TextArea

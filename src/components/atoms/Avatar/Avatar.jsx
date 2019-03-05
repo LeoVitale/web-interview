@@ -1,13 +1,19 @@
-import React from 'react';
-import styles from './Avatar.module.scss';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styles from './Avatar.module.scss'
 
 const Avatar = () => {
-  const { avatar } = styles;
+  const { avatar } = styles
   return (
     <div className={avatar}>
-      <img src="https://react.semantic-ui.com/images/avatar/small/elliot.jpg" alt=""/>
+      <img
+        src="https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
+        alt=""
+      />
     </div>
-  );
-};
+  )
+}
 
-export default Avatar;
+Avatar.propTypes = {}
+
+export default Avatar
