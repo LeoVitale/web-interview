@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextArea /> should render TextBox as expected 1`] = `
+<TextBox>
+  <div
+    className="textBox"
+  >
+    <input
+      className="input"
+      type="text"
+    />
+  </div>
+</TextBox>
+`;
