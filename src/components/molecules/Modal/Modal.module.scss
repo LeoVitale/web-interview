@@ -1,0 +1,28 @@
+@import 'styles/_constants.scss';
+
+.overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: $transparent-grey;
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  background-color: white;
+  border-radius: 3px;
+  padding: 20px;
+  min-width: 500px;
+
+  .header {
+
+  }
+
+  .content {
+
+  }
+}
