@@ -9,6 +9,8 @@
       "containers/*": ["./src/containers/*"],
       "services/*": ["./src/services/*"],
       "styles/*": ["./src/styles/*"],
+      "utils/*": ["./src/utils/*"],
+      "images/*": ["./src/images/*"],
     }
   }
 }

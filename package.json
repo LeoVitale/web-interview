@@ -33,6 +33,7 @@
     "react-dom": "^16.8.3",
     "react-grid-system": "^4.4.3",
     "react-router-dom": "^4.3.1",
+    "react-select": "^2.4.1",
     "react-use-form-state": "^0.7.0"
   },
   "devDependencies": {
@@ -74,7 +75,9 @@
       "^components(.*)$": "<rootDir>/src/components$1",
       "^containers(.*)$": "<rootDir>/src/containers$1",
       "^styles(.*)$": "<rootDir>/src/styles$1",
-      "^services(.*)$": "<rootDir>/src/services$1"
+      "^services(.*)$": "<rootDir>/src/services$1",
+      "^utils(.*)$": "<rootDir>/src/utils$1",
+      "^images(.*)$": "<rootDir>/src/images$1"
     }
   }
 }

@@ -15,5 +15,7 @@ module.exports = override(
     services: path.resolve(__dirname, 'src/services'),
     containers: path.resolve(__dirname, 'src/containers'),
     styles: path.resolve(__dirname, 'src/styles'),
+    utils: path.resolve(__dirname, 'src/utils'),
+    images: path.resolve(__dirname, 'src/images'),
   })
 );
