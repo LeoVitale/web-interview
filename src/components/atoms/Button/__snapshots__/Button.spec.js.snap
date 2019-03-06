@@ -3,7 +3,7 @@
 exports[`<Button /> should render Button as expected 1`] = `
 <Button>
   <button
-    className="button"
+    className="button undefined"
   />
 </Button>
 `;
