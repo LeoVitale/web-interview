@@ -1,13 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
+import Icon from 'components/atoms/Icon'
 import styles from './MenuItem.module.scss'
 
 const MenuItem = ({ icon, label, to }) => {
   const { menuItem } = styles
   return (
     <Link className={menuItem} to={to}>
-      <i>{icon}</i>
+      <Icon />
       <span>{label}</span>
     </Link>
   )
