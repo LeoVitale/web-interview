@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Icon.module.scss'
 
-const Icon = ({ type }) => {
+const Icon = ({ type, className }) => {
   let vector
   const { svgIcon } = styles
   switch (type) {
@@ -12,6 +12,10 @@ const Icon = ({ type }) => {
     case 'add':
       vector =
         'M12.75 12.75v6.513a.75.75 0 1 1-1.5 0V12.75H4.74a.75.75 0 1 1 0-1.5h6.51V4.713a.75.75 0 1 1 1.5 0v6.537h6.568a.75.75 0 1 1 0 1.5H12.75z'
+      break
+    case 'clock':
+      vector =
+        'M12 21.75c-5.385 0-9.75-4.365-9.75-9.75S6.615 2.25 12 2.25s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75zm0-1.5a8.25 8.25 0 1 0 0-16.5 8.25 8.25 0 0 0 0 16.5zm4.128-5.118a.75.75 0 1 1-1.07 1.051l-3.808-3.876V7.044a.75.75 0 1 1 1.5 0v4.65l3.378 3.438z'
       break
     case 'close':
       vector =
@@ -31,7 +35,7 @@ const Icon = ({ type }) => {
       viewBox="0 0 24 24"
       fill="#400099"
       role="img"
-      className={svgIcon}
+      className={`${svgIcon} ${className}`}
     >
       <title />
       <path d={vector} />

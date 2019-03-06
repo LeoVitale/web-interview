@@ -4,9 +4,12 @@ import moment from 'moment'
 import Radio from 'components/atoms/Radio'
 import Button from 'components/atoms/Button'
 import TextArea from 'components/atoms/TextArea'
+import Icon from 'components/atoms/Icon'
+
+import UserItem from 'components/molecules/UserItem'
 
 import { availableSlots } from 'services'
-moment.locale('gb')
+import styles from './NewAppointments.module.scss'
 class NewAppointments extends Component {
   state = {
     symptoms: '',
@@ -31,11 +34,17 @@ class NewAppointments extends Component {
 
   render() {
     const { symptoms, hour, appointments } = this.state
+    const { bookBtn, divider } = styles
 
     return (
       <div>
         <h1>New Appointments</h1>
-        <h3>Date & Time</h3>
+        <UserItem action={<div>change</div>} />
+        <hr className={divider} />
+        <h3>
+          <Icon type="clock" />
+          Date & Time
+        </h3>
         <div>
           {appointments.map(slot => (
             <Radio
@@ -48,17 +57,20 @@ class NewAppointments extends Component {
             />
           ))}
         </div>
-        <h3>Notes</h3>
+        <h3>
+          <Icon type="notes" />
+          Notes
+        </h3>
         <div>
           <TextArea
             name="symptoms"
-            rows="10"
+            rows="7"
             placeholder="Describe your symptoms"
             value={symptoms}
             onChange={this.onChangeForm}
           />
         </div>
-        <Button>Book</Button>
+        <Button className={bookBtn}>Book</Button>
       </div>
     )
   }

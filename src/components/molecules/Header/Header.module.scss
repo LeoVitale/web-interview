@@ -1,18 +1,18 @@
 @import 'styles/_constants.scss';
 
 .appHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $gutter-size--large;
+
+  .appLogo {
+    max-height: 33px;
+  }
+  border-bottom: $border-standard;
+
+  .menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: $gutter-size--large;
-
-    .appLogo {
-      max-height: 33px;
-    }
-    border-bottom: $border-standard;
-
-    .menu {
-      display: flex;
-      align-items: center;
-    }
   }
+}

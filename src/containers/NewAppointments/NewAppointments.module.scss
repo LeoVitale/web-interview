@@ -1,0 +1,11 @@
+@import 'styles/_constants.scss';
+
+.bookBtn {
+  margin: 20px 0;
+}
+
+.divider {
+  margin: 10px 0 30px;
+  border-top: none;
+  border-bottom: $border-standard;
+}

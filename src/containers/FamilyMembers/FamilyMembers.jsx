@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
+import Button from 'components/atoms/Button'
 import Modal from 'components/molecules/Modal'
 import UserItem from 'components/molecules/UserItem'
 import FamilyMemberForm from 'components/organisms/FamilyMemberForm'
 import { familyMembers, users } from 'services'
+import styles from './FamilyMembers.module.scss'
 
 class FamilyMembers extends Component {
   state = {
@@ -28,12 +30,18 @@ class FamilyMembers extends Component {
 
   render() {
     const { isModalOpen, familyInfo } = this.state
+    const { addFamilyMember } = styles
     return (
       <div>
+        <h1>Family</h1>
         {familyInfo.map(member => (
-          <UserItem key={member.id} user={member} />
+          <Button key={member.id} className={addFamilyMember}>
+            <UserItem user={member} />
+          </Button>
         ))}
-        <button onClick={this.toggleModal}>Open Modal</button>
+        <Button className={addFamilyMember} onClick={this.toggleModal}>
+          <UserItem />
+        </Button>
         <Modal open={isModalOpen} onClose={this.toggleModal}>
           <FamilyMemberForm onSave={this.saveNewMember} />
         </Modal>
