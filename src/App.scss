@@ -12,6 +12,19 @@
 
 body {
   font-family: 'Visuelt', sans-serif;
-  font-size: 10px;
+  font-size: 100%;
   font-weight: 400;
 }
+ h2 {
+   margin-top: 0;
+  font-size: 2rem;
+ }
+
+ p {
+  font-size: 1rem;
+ }
+
+ .main {
+   max-width: 716px;
+   margin: 10px auto;
+ }

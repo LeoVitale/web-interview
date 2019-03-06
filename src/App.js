@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 import { hot } from 'react-hot-loader'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import logo from './logo.png'
@@ -25,12 +25,14 @@ class App extends Component {
   render() {
     return (
       <Router className="app">
-        <div>
+        <Fragment>
           <Header logo={logo} />
-          <Route exact path="/" component={Appointments} />
-          <Route path="/new-appointments" component={NewAppointments} />
-          <Route path="/family-members" component={FamilyMembers} />
-        </div>
+          <div className="main">
+            <Route exact path="/" component={Appointments} />
+            <Route path="/new-appointments" component={NewAppointments} />
+            <Route path="/family-members" component={FamilyMembers} />
+          </div>
+        </Fragment>
       </Router>
     )
   }
