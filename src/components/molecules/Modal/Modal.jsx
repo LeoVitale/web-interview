@@ -1,9 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+
+import Button from 'components/atoms/Button'
+import Icon from 'components/atoms/Icon'
+
 import styles from './Modal.module.scss'
 
 const Modal = ({ children, open, onClose }) => {
-  const { modal, overlay, header, content } = styles
+  const { modal, overlay, header, content, closeBtn } = styles
 
   if (!open) {
     return null
@@ -13,7 +17,9 @@ const Modal = ({ children, open, onClose }) => {
     <div className={overlay}>
       <div className={modal}>
         <div className={header}>
-          <button onClick={onClose}>close</button>
+          <Button onClick={onClose} className={closeBtn}>
+            <Icon type="close" />
+          </Button>
         </div>
         <div className={content}>{children}</div>
       </div>
