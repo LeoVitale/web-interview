@@ -3,10 +3,9 @@ import PropTypes from 'prop-types'
 import Avatar from 'components/atoms/Avatar'
 import UserHeader from 'components/atoms/UserHeader'
 import Icon from 'components/atoms/Icon'
-import styles from './UserItem.module.scss'
+import { userItem, userData, actions, addIcon, addAvatar } from './UserItem.module.scss'
 
 const UserItem = ({ action, user }) => {
-  const { userItem, userData, actions, addIcon, addAvatar } = styles
   let userHeader
   const name = user ? `${user.firstName} ${user.lastName}` : ''
   if (user) {

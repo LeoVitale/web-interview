@@ -8,7 +8,7 @@ import Select from 'components/atoms/Select'
 
 import { days, years, months } from 'utils/dates'
 
-import styles from './FamilyMemberForm.module.scss'
+import { familyMembers, row } from './FamilyMemberForm.module.scss'
 
 const FamilyMemberForm = ({ onSave }) => {
   const [firstName, setFirstName] = useState('')
@@ -19,8 +19,6 @@ const FamilyMemberForm = ({ onSave }) => {
     firstName,
     lastName,
   }
-
-  const { familyMembers, row } = styles
 
   return (
     <Container className={familyMembers}>

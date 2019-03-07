@@ -9,7 +9,7 @@ import Icon from 'components/atoms/Icon'
 import UserItem from 'components/molecules/UserItem'
 
 import { availableSlots } from 'services'
-import styles from './NewAppointments.module.scss'
+import { bookBtn, divider } from './NewAppointments.module.scss'
 class NewAppointments extends Component {
   state = {
     symptoms: '',
@@ -34,7 +34,6 @@ class NewAppointments extends Component {
 
   render() {
     const { symptoms, hour, appointments } = this.state
-    const { bookBtn, divider } = styles
 
     return (
       <div>

@@ -1,9 +1,8 @@
 import React from 'react'
-import styles from './Icon.module.scss'
+import { svgIcon } from './Icon.module.scss'
 
 const Icon = ({ type, className }) => {
   let vector
-  const { svgIcon } = styles
   switch (type) {
     case 'notes':
       vector =

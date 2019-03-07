@@ -2,10 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
 import Icon from 'components/atoms/Icon'
-import styles from './MenuItem.module.scss'
+import { menuItem, iconItem } from './MenuItem.module.scss'
 
 const MenuItem = ({ icon, label, to }) => {
-  const { menuItem, iconItem } = styles
   return (
     <Link className={menuItem} to={to}>
       <Icon className={iconItem} />

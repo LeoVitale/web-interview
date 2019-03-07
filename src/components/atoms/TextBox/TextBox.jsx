@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styles from './TextBox.module.scss'
+import { textBox, title, input } from './TextBox.module.scss'
 
 const TextBox = ({ name, label, ...props }) => {
-  const { textBox, title, input } = styles
   return (
     <div className={textBox}>
       {label && (

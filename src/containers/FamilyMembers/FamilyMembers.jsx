@@ -4,7 +4,7 @@ import Modal from 'components/molecules/Modal'
 import UserItem from 'components/molecules/UserItem'
 import FamilyMemberForm from 'components/organisms/FamilyMemberForm'
 import { familyMembers, users } from 'services'
-import styles from './FamilyMembers.module.scss'
+import { addFamilyMember } from './FamilyMembers.module.scss'
 
 class FamilyMembers extends Component {
   state = {
@@ -30,9 +30,6 @@ class FamilyMembers extends Component {
 
   render() {
     const { isModalOpen, familyInfo } = this.state
-    const { addFamilyMember } = styles
-
-    console.log(this.props.appointments)
 
     return (
       <div>

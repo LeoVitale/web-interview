@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styles from './Radio.module.scss'
+import { radio } from './Radio.module.scss'
 
 const Radio = ({ value, label, name, ...props }) => {
-  const { radio } = styles
   return (
     <div className={radio}>
       <input type="radio" id={label} name={name} value={value} {...props} />

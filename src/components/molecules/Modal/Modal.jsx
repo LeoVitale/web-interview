@@ -4,11 +4,10 @@ import { CSSTransition } from 'react-transition-group'
 import Button from 'components/atoms/Button'
 import Icon from 'components/atoms/Icon'
 
-import styles from './Modal.module.scss'
+import { modal, overlay, header, content, closeBtn } from './Modal.module.scss'
 import './ModalTransition.scss'
 
 const Modal = ({ children, open, onClose }) => {
-  const { modal, overlay, header, content, closeBtn } = styles
 
   return (
     <CSSTransition in={open} timeout={300} classNames="overlay" unmountOnExit>
