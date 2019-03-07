@@ -17,7 +17,9 @@ const UserItem = ({ action, user }) => {
     ? { title: name, subHeader: 'test' }
     : { title: 'add family member' }
 
-  const avatarProps = user ? { name, img: user.avatar } : { className:addAvatar,  icon: <Icon type="add" className={addIcon} />}
+  const avatarProps = user
+    ? { name, img: user.avatar }
+    : { className: addAvatar, icon: <Icon type="add" className={addIcon} /> }
 
   return (
     <div className={userItem}>
