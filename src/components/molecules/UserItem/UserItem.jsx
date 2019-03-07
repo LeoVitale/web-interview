@@ -31,6 +31,9 @@ const UserItem = ({ action, user }) => {
   )
 }
 
-UserItem.propTypes = {}
+UserItem.propTypes = {
+  action: PropTypes.node.isRequired,
+  user: PropTypes.object.isRequired
+}
 
 export default UserItem

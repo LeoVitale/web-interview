@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { textArea } from './TextArea.module.scss'
 
 const TextArea = props => {
@@ -9,7 +8,5 @@ const TextArea = props => {
     </div>
   )
 }
-
-TextArea.propTypes = {}
 
 export default TextArea
