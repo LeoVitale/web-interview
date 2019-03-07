@@ -3,7 +3,7 @@
 exports[`<Icon /> should render Icon as expected 1`] = `
 <Icon>
   <svg
-    className="svgIcon"
+    className="svgIcon undefined"
     fill="#400099"
     height="24"
     role="img"
