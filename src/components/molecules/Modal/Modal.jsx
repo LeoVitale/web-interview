@@ -8,7 +8,6 @@ import { modal, overlay, header, content, closeBtn } from './Modal.module.scss'
 import './ModalTransition.scss'
 
 const Modal = ({ children, open, onClose }) => {
-
   return (
     <CSSTransition in={open} timeout={300} classNames="overlay" unmountOnExit>
       <div className={overlay}>

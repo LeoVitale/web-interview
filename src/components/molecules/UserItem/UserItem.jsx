@@ -3,28 +3,27 @@ import PropTypes from 'prop-types'
 import Avatar from 'components/atoms/Avatar'
 import UserHeader from 'components/atoms/UserHeader'
 import Icon from 'components/atoms/Icon'
-import { userItem, userData, actions, addIcon, addAvatar } from './UserItem.module.scss'
+import {
+  userItem,
+  userData,
+  actions,
+  addIcon,
+  addAvatar,
+} from './UserItem.module.scss'
 
 const UserItem = ({ action, user }) => {
-  let userHeader
   const name = user ? `${user.firstName} ${user.lastName}` : ''
-  if (user) {
-    userHeader = <UserHeader title={name} subheader="Teste" />
-  } else {
-    userHeader = <UserHeader title="Add Family Member" />
-  }
+  const userProps = user
+    ? { title: name, subHeader: 'test' }
+    : { title: 'add family member' }
+
+  const avatarProps = user ? { name, img: user.avatar } : { className:addAvatar,  icon: <Icon type="add" className={addIcon} />}
+
   return (
     <div className={userItem}>
       <div className={userData}>
-        {user ? (
-          <Avatar name={name} img={user.avatar} />
-        ) : (
-          <Avatar
-            className={addAvatar}
-            icon={<Icon type="add" className={addIcon} />}
-          />
-        )}
-        {userHeader}
+        <Avatar {...avatarProps} />
+        <UserHeader {...userProps} />
       </div>
       <div className={actions}>{action}</div>
     </div>
@@ -33,7 +32,7 @@ const UserItem = ({ action, user }) => {
 
 UserItem.propTypes = {
   action: PropTypes.node.isRequired,
-  user: PropTypes.object.isRequired
+  user: PropTypes.object.isRequired,
 }
 
 export default UserItem
