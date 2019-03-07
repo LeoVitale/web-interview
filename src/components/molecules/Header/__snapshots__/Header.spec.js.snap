@@ -49,9 +49,11 @@ exports[`<Header /> should render Header as expected 1`] = `
                 href="/new-appointments"
                 onClick={[Function]}
               >
-                <Icon>
+                <Icon
+                  className="iconItem"
+                >
                   <svg
-                    className="svgIcon"
+                    className="svgIcon iconItem"
                     fill="#400099"
                     height="24"
                     role="img"
@@ -84,9 +86,11 @@ exports[`<Header /> should render Header as expected 1`] = `
                 href="/"
                 onClick={[Function]}
               >
-                <Icon>
+                <Icon
+                  className="iconItem"
+                >
                   <svg
-                    className="svgIcon"
+                    className="svgIcon iconItem"
                     fill="#400099"
                     height="24"
                     role="img"
@@ -119,9 +123,11 @@ exports[`<Header /> should render Header as expected 1`] = `
                 href="/family-members"
                 onClick={[Function]}
               >
-                <Icon>
+                <Icon
+                  className="iconItem"
+                >
                   <svg
-                    className="svgIcon"
+                    className="svgIcon iconItem"
                     fill="#400099"
                     height="24"
                     role="img"
@@ -140,14 +146,13 @@ exports[`<Header /> should render Header as expected 1`] = `
               </a>
             </Link>
           </MenuItem>
-          <Avatar>
+          <Avatar
+            size="small"
+          >
             <div
-              className="avatar"
+              className="avatar undefined small"
             >
-              <img
-                alt=""
-                src="https://react.semantic-ui.com/images/avatar/small/elliot.jpg"
-              />
+              <img />
             </div>
           </Avatar>
         </nav>
