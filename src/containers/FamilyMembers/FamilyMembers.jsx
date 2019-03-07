@@ -31,6 +31,9 @@ class FamilyMembers extends Component {
   render() {
     const { isModalOpen, familyInfo } = this.state
     const { addFamilyMember } = styles
+
+    console.log(this.props.appointments);
+
     return (
       <div>
         <h1>Family</h1>

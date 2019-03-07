@@ -32,9 +32,12 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-grid-system": "^4.4.3",
+    "react-redux": "^6.0.1",
     "react-router-dom": "^4.3.1",
     "react-select": "^2.4.1",
-    "react-use-form-state": "^0.7.0"
+    "react-use-form-state": "^0.7.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "customize-cra": "^0.2.12",
@@ -51,7 +54,8 @@
     "prop-types": "^15.7.2",
     "react-app-rewired": "^2.1.0",
     "react-hot-loader": "^4.7.2",
-    "react-scripts": "^2.1.8"
+    "react-scripts": "^2.1.8",
+    "redux-devtools-extension": "^2.13.8"
   },
   "browserslist": [
     ">0.2%",

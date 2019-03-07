@@ -1,1 +1,1 @@
-export { default } from './FamilyMembers.jsx'
+export { default } from './FamilyMembers.container'
