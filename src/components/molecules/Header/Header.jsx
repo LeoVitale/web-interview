@@ -13,7 +13,7 @@ const Header = ({ logo }) => {
         <MenuItem label="Book" to="/new-appointments" />
         <MenuItem label="Appointments" to="/" />
         <MenuItem label="Family Members" to="/family-members" />
-        <Avatar size="small"/>
+        <Avatar size="small" />
       </nav>
     </header>
   )

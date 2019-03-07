@@ -8,7 +8,7 @@ const MenuItem = ({ icon, label, to }) => {
   const { menuItem, iconItem } = styles
   return (
     <Link className={menuItem} to={to}>
-      <Icon className={iconItem}/>
+      <Icon className={iconItem} />
       <span>{label}</span>
     </Link>
   )

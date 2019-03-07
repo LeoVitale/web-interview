@@ -4,11 +4,11 @@ import styles from './Avatar.module.scss'
 
 const Avatar = ({ img, name, icon, size, className }) => {
   const { avatar, small, medium } = styles
-  const getSize = (size) => {
+  const getSize = size => {
     if (size === 'small') {
-      return small;
+      return small
     } else {
-     return medium;
+      return medium
     }
   }
   return (
@@ -23,7 +23,7 @@ Avatar.propTypes = {
   name: PropTypes.string.isRequired,
   icon: PropTypes.node.isRequired,
   size: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired
+  className: PropTypes.string.isRequired,
 }
 
 export default Avatar

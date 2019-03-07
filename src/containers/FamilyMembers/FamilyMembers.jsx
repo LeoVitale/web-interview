@@ -32,7 +32,7 @@ class FamilyMembers extends Component {
     const { isModalOpen, familyInfo } = this.state
     const { addFamilyMember } = styles
 
-    console.log(this.props.appointments);
+    console.log(this.props.appointments)
 
     return (
       <div>

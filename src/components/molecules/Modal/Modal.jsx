@@ -1,29 +1,30 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import { CSSTransition } from 'react-transition-group'
 import Button from 'components/atoms/Button'
 import Icon from 'components/atoms/Icon'
 
 import styles from './Modal.module.scss'
+import './ModalTransition.scss'
 
 const Modal = ({ children, open, onClose }) => {
   const { modal, overlay, header, content, closeBtn } = styles
 
-  if (!open) {
-    return null
-  }
-
   return (
-    <div className={overlay}>
-      <div className={modal}>
-        <div className={header}>
-          <Button onClick={onClose} className={closeBtn}>
-            <Icon type="close" />
-          </Button>
-        </div>
-        <div className={content}>{children}</div>
+    <CSSTransition in={open} timeout={300} classNames="overlay" unmountOnExit>
+      <div className={overlay}>
+        <CSSTransition in={open} timeout={300} classNames="modal" unmountOnExit>
+          <div className={modal}>
+            <div className={header}>
+              <Button onClick={onClose} className={closeBtn}>
+                <Icon type="close" />
+              </Button>
+            </div>
+            <div className={content}>{children}</div>
+          </div>
+        </CSSTransition>
       </div>
-    </div>
+    </CSSTransition>
   )
 }
 

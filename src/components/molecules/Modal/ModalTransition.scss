@@ -1,0 +1,28 @@
+.modal-exit {
+  opacity: 1;
+
+  transform: scale(1);
+}
+.modal-exit-active {
+  opacity: 0;
+  transform: scale(0);
+  transition: all 300ms ease-in;
+}
+
+.overlay {
+  opacity: 1;
+}
+.overlay-enter {
+  opacity: 0.01;
+}
+.overlay-enter-active {
+  opacity: 1;
+  transition: all 300ms ease-out;
+}
+.overlay-exit {
+  opacity: 1;
+}
+.overlay-exit-active {
+  opacity: 0;
+  transition: all 300ms ease-in;
+}
