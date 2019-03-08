@@ -12,7 +12,7 @@ const Header = ({ logo, user }) => {
         <MenuItem label="Book" to="/new-appointments" />
         <MenuItem label="Appointments" to="/" />
         <MenuItem label="Family Members" to="/family-members" />
-        <Avatar size="small" img={user.avatar} />
+        {user && <Avatar size="small" img={user.avatar} />}
       </nav>
     </header>
   )

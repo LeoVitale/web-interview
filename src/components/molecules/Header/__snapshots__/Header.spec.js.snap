@@ -146,15 +146,6 @@ exports[`<Header /> should render Header as expected 1`] = `
               </a>
             </Link>
           </MenuItem>
-          <Avatar
-            size="small"
-          >
-            <div
-              className="avatar undefined small"
-            >
-              <img />
-            </div>
-          </Avatar>
         </nav>
       </header>
     </Header>
