@@ -13,7 +13,8 @@
           ["services", "./src/services"],
           ["styels", "./src/styles"],
           ["images", "./src/images"],
-          ["ducks", "./src/redux/ducks"]
+          ["ducks", "./src/redux/ducks"],
+          ["utils", "./src/utils"]
         ]
       }
     },
