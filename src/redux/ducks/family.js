@@ -44,3 +44,11 @@ export const loadMember = id => dispatch =>
     endpoint: `${API_ENDPOINT}/users/${id}`,
     types: [FAMILY_REQUEST, FAMILY_SUCCESS, FAMILY_FAILURE],
   })
+
+export const loadUserFamilyMembers = id => dispatch => {
+  fetch(`${API_ENDPOINT}/users/${id}/family-members`)
+    .then(res => res.json())
+    .then(members => {
+      members.forEach(member => dispatch(loadMember(`/${member.id}`)))
+    })
+}
