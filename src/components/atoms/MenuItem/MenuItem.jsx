@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom'
 import Icon from 'components/atoms/Icon'
 import { menuItem, iconItem } from './MenuItem.module.scss'
 
-const MenuItem = ({ icon, label, to }) => {
+const MenuItem = ({ className, icon, label, to }) => {
   return (
-    <Link className={menuItem} to={to}>
+    <Link className={`${menuItem} ${className}`} to={to}>
       <Icon className={iconItem} />
       <span>{label}</span>
     </Link>
@@ -17,6 +17,11 @@ MenuItem.propTypes = {
   icon: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
   to: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+}
+
+MenuItem.defaultProps = {
+  className: '',
 }
 
 export default MenuItem
