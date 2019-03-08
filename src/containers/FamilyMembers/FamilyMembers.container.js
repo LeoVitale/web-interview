@@ -1,6 +1,6 @@
 import FamilyMember from './FamilyMembers.jsx'
 import { connect } from 'react-redux'
-import { loadMember } from 'ducks/family'
+import { loadMember, loadUserFamilyMembers } from 'ducks/family'
 
 const mapStateToProps = state => ({
   app: state.app,
@@ -10,6 +10,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = {
   loadMember,
+  loadUserFamilyMembers,
 }
 
 export default connect(

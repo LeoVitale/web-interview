@@ -9,20 +9,19 @@ import { addFamilyMember } from './FamilyMembers.module.scss'
 class FamilyMembers extends Component {
   state = {
     isModalOpen: false,
-    familyMembersQtd: 0,
+    fetchedMembers: false
   }
 
   static getDerivedStateFromProps(nextProps, prevState) {
-    const { loadMember, app } = nextProps
-    const { familyMembers, loadingFamilyMembers } = app
-    if (prevState.familyMembersQtd === 0 && !loadingFamilyMembers) {
-      familyMembers.forEach(member => loadMember(member.id))
+    const {app, loadUserFamilyMembers} = nextProps
+
+    if (app.user.id && !prevState.fetchedMembers) {
+      loadUserFamilyMembers(app.user.id)
       return {
-        familyMembersQtd: familyMembers.length,
+        fetchedMembers: true
       }
     }
-
-    return null
+    return null;
   }
 
   toggleModal = () => {
@@ -42,7 +41,6 @@ class FamilyMembers extends Component {
 
     return (
       <div>
-        <h1>Family</h1>
         {members.map(member => (
           <Button key={member.id} className={addFamilyMember}>
             <UserItem user={member} />
@@ -51,7 +49,11 @@ class FamilyMembers extends Component {
         <Button className={addFamilyMember} onClick={this.toggleModal}>
           <UserItem />
         </Button>
-        <Modal open={isModalOpen} onClose={this.toggleModal}>
+        <Modal
+          title="Add Family Member"
+          open={isModalOpen}
+          onClose={this.toggleModal}
+        >
           <FamilyMemberForm onSave={this.saveNewMember} />
         </Modal>
       </div>
@@ -63,6 +65,7 @@ FamilyMembers.propTypes = {
   app: PropTypes.object.isRequired,
   family: PropTypes.object.isRequired,
   loadMember: PropTypes.func.isRequired,
+  loadUserFamilyMembers: PropTypes.func.isRequired,
 }
 
 export default FamilyMembers
