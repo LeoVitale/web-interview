@@ -9,3 +9,10 @@
   border-top: none;
   border-bottom: $border-standard;
 }
+
+.listHour {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-bottom: 20px;
+}

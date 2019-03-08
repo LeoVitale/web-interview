@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import moment from 'moment'
 
 import Radio from 'components/atoms/Radio'
 import Button from 'components/atoms/Button'
 import TextArea from 'components/atoms/TextArea'
-import Icon from 'components/atoms/Icon'
+import Title from 'components/atoms/Title'
 
 import UserItem from 'components/molecules/UserItem'
 
-import { availableSlots } from 'services'
-import { bookBtn, divider } from './NewAppointments.module.scss'
+import { bookBtn, divider, listHour } from './NewAppointments.module.scss'
 class NewAppointments extends Component {
   state = {
     symptoms: '',
@@ -18,13 +18,8 @@ class NewAppointments extends Component {
   }
 
   componentDidMount() {
-    availableSlots()
-      .then(response => {
-        this.setState({ appointments: response })
-      })
-      .catch(() => {
-        // TODO: Handle error here
-      })
+    const { loadSlots } = this.props
+    loadSlots()
   }
 
   onChangeForm = e => {
@@ -40,11 +35,8 @@ class NewAppointments extends Component {
         <h1>New Appointments</h1>
         <UserItem action={<div>change</div>} />
         <hr className={divider} />
-        <h3>
-          <Icon type="clock" />
-          Date & Time
-        </h3>
-        <div>
+        <Title icon="clock" label="Date & Time" />
+        <div className={listHour}>
           {appointments.map(slot => (
             <Radio
               key={slot}
@@ -56,10 +48,7 @@ class NewAppointments extends Component {
             />
           ))}
         </div>
-        <h3>
-          <Icon type="notes" />
-          Notes
-        </h3>
+        <Title icon="notes" label="Notes" />
         <div>
           <TextArea
             name="symptoms"
@@ -73,6 +62,10 @@ class NewAppointments extends Component {
       </div>
     )
   }
+}
+
+NewAppointments.propTypes = {
+  loadSlots: PropTypes.func.isRequired,
 }
 
 export default NewAppointments
