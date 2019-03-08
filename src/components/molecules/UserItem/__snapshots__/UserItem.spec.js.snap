@@ -41,15 +41,13 @@ exports[`<UserItem /> should render UserItem as expected 1`] = `
         </div>
       </Avatar>
       <UserHeader
-        title="Add Family Member"
+        title="add family member"
       >
-        <div
-          className="userHeader"
-        >
+        <div>
           <span
             className="title"
           >
-            Add Family Member
+            add family member
           </span>
         </div>
       </UserHeader>

@@ -2,8 +2,6 @@
 
 exports[`<UserHeader /> should render UserHeader as expected 1`] = `
 <UserHeader>
-  <div
-    className="userHeader"
-  />
+  <div />
 </UserHeader>
 `;
