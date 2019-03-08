@@ -1,18 +1,17 @@
-import FamilyMember from './FamilyMembers.jsx'
+import App from './App.jsx'
 import { connect } from 'react-redux'
-import { loadMember } from 'ducks/family'
+import { loadUser, loadUserFamilyMembers } from 'ducks/app'
 
 const mapStateToProps = state => ({
   app: state.app,
-  appointments: state.appointments,
-  family: state.family,
 })
 
 const mapDispatchToProps = {
-  loadMember,
+  loadUser,
+  loadUserFamilyMembers,
 }
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(FamilyMember)
+)(App)

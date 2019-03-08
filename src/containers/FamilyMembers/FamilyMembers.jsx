@@ -1,22 +1,28 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import Button from 'components/atoms/Button'
 import Modal from 'components/molecules/Modal'
 import UserItem from 'components/molecules/UserItem'
 import FamilyMemberForm from 'components/organisms/FamilyMemberForm'
-import { familyMembers, users } from 'services'
 import { addFamilyMember } from './FamilyMembers.module.scss'
 
 class FamilyMembers extends Component {
   state = {
     isModalOpen: false,
-    familyInfo: [],
+    familyMembersQtd: 0,
   }
 
-  async componentDidMount() {
-    familyMembers().then(family => {
-      const results = family.map(async member => await users(`/${member.id}`))
-      Promise.all(results).then(familyInfo => this.setState({ familyInfo }))
-    })
+  static getDerivedStateFromProps(nextProps, prevState) {
+    const { loadMember, app } = nextProps
+    const { familyMembers, loadingFamilyMembers } = app
+    if (prevState.familyMembersQtd === 0 && !loadingFamilyMembers) {
+      familyMembers.forEach(member => loadMember(member.id))
+      return {
+        familyMembersQtd: familyMembers.length,
+      }
+    }
+
+    return null
   }
 
   toggleModal = () => {
@@ -29,12 +35,15 @@ class FamilyMembers extends Component {
   }
 
   render() {
-    const { isModalOpen, familyInfo } = this.state
+    const { isModalOpen } = this.state
+    const {
+      family: { members },
+    } = this.props
 
     return (
       <div>
         <h1>Family</h1>
-        {familyInfo.map(member => (
+        {members.map(member => (
           <Button key={member.id} className={addFamilyMember}>
             <UserItem user={member} />
           </Button>
@@ -48,6 +57,12 @@ class FamilyMembers extends Component {
       </div>
     )
   }
+}
+
+FamilyMembers.propTypes = {
+  app: PropTypes.object.isRequired,
+  family: PropTypes.object.isRequired,
+  loadMember: PropTypes.func.isRequired,
 }
 
 export default FamilyMembers

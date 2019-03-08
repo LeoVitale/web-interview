@@ -1,28 +1,24 @@
 import React, { Component, Fragment } from 'react'
+import PropTypes from 'prop-types'
 import { hot } from 'react-hot-loader'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import logo from './logo.png'
+import logo from 'images/logo.png'
 import Header from 'components/molecules/Header'
 import Appointments from 'containers/Appointments'
 import NewAppointments from 'containers/NewAppointments'
 import FamilyMembers from 'containers/FamilyMembers'
-import { API_ENDPOINT } from './config'
 
 import './App.scss'
 
 class App extends Component {
   componentDidMount() {
-    fetch(`${API_ENDPOINT}/users/1`)
-      .then(res => res.json())
-      .then(() => {
-        // TODO: Handle response here
-      })
-      .catch(() => {
-        // TODO: Handle error here
-      })
+    const { loadUser, loadUserFamilyMembers } = this.props
+    loadUser('1')
+    loadUserFamilyMembers('1')
   }
 
   render() {
+    console.log(this.props)
     return (
       <Router className="app">
         <Fragment>
@@ -36,6 +32,11 @@ class App extends Component {
       </Router>
     )
   }
+}
+
+App.propTypes = {
+  loadUser: PropTypes.func.isRequired,
+  loadUserFamilyMembers: PropTypes.func.isRequired,
 }
 
 export default hot(module)(App)

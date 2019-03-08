@@ -2,6 +2,7 @@ import { createStore, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import rootReducer from './ducks/index'
+import clientMiddleware from './middlewares/clientMiddleware'
 
 const composeEnhancers = composeWithDevTools({
   // Specify name here, actionsBlacklist, actionsCreators and other options if needed
@@ -11,7 +12,7 @@ const configureStore = initialState => {
   const store = createStore(
     rootReducer,
     initialState,
-    composeEnhancers(applyMiddleware(thunk))
+    composeEnhancers(applyMiddleware(thunk, clientMiddleware))
   )
 
   if (process.env.NODE_ENV !== 'production' && module.hot) {
