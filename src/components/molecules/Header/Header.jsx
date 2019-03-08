@@ -4,7 +4,7 @@ import MenuItem from 'components/atoms/MenuItem'
 import Avatar from 'components/atoms/Avatar'
 import { appHeader, appLogo, menu } from './Header.module.scss'
 
-const Header = ({ logo }) => {
+const Header = ({ logo, user }) => {
   return (
     <header className={appHeader}>
       <img src={logo} className={appLogo} alt="logo" />
@@ -12,7 +12,7 @@ const Header = ({ logo }) => {
         <MenuItem label="Book" to="/new-appointments" />
         <MenuItem label="Appointments" to="/" />
         <MenuItem label="Family Members" to="/family-members" />
-        <Avatar size="small" />
+        <Avatar size="small" img={user.avatar} />
       </nav>
     </header>
   )
@@ -20,6 +20,7 @@ const Header = ({ logo }) => {
 
 Header.propTypes = {
   logo: PropTypes.string.isRequired,
+  user: PropTypes.object.isRequired,
 }
 
 export default Header

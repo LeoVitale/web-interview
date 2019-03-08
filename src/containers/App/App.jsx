@@ -18,11 +18,14 @@ class App extends Component {
   }
 
   render() {
-    console.log(this.props)
+    const {
+      app: { user },
+    } = this.props
+
     return (
       <Router className="app">
         <Fragment>
-          <Header logo={logo} />
+          <Header logo={logo} user={user} />
           <div className="main">
             <Route exact path="/" component={Appointments} />
             <Route path="/new-appointments" component={NewAppointments} />
@@ -37,6 +40,7 @@ class App extends Component {
 App.propTypes = {
   loadUser: PropTypes.func.isRequired,
   loadUserFamilyMembers: PropTypes.func.isRequired,
+  app: PropTypes.object.isRequired,
 }
 
 export default hot(module)(App)
