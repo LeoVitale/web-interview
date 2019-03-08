@@ -88,9 +88,6 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                       }
                     }
                   >
-                    <h2>
-                      Add Family Member
-                    </h2>
                     <p>
                       Please remember that for children under the age of 16 all consultations must be via video and a parent or guardian must be present.
                     </p>
@@ -373,6 +370,8 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                   >
                     <SelectCustom
                       className="select"
+                      name="day"
+                      onChange={[Function]}
                       options={
                         Array [
                           Object {
@@ -508,6 +507,8 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                         defaultInputValue=""
                         defaultMenuIsOpen={false}
                         defaultValue={null}
+                        name="day"
+                        onChange={[Function]}
                         options={
                           Array [
                             Object {
@@ -675,6 +676,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                           menuShouldBlockScroll={false}
                           menuShouldScrollIntoView={true}
                           minMenuHeight={140}
+                          name="day"
                           noOptionsMessage={[Function]}
                           onChange={[Function]}
                           onInputChange={[Function]}
@@ -1001,6 +1003,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                 "menuShouldBlockScroll": false,
                                 "menuShouldScrollIntoView": true,
                                 "minMenuHeight": 140,
+                                "name": "day",
                                 "noOptionsMessage": [Function],
                                 "onChange": [Function],
                                 "onInputChange": [Function],
@@ -1360,6 +1363,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                     "menuShouldBlockScroll": false,
                                     "menuShouldScrollIntoView": true,
                                     "minMenuHeight": 140,
+                                    "name": "day",
                                     "noOptionsMessage": [Function],
                                     "onChange": [Function],
                                     "onInputChange": [Function],
@@ -1711,6 +1715,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "menuShouldBlockScroll": false,
                                         "menuShouldScrollIntoView": true,
                                         "minMenuHeight": 140,
+                                        "name": "day",
                                         "noOptionsMessage": [Function],
                                         "onChange": [Function],
                                         "onInputChange": [Function],
@@ -2062,6 +2067,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "day",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -2290,6 +2296,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "day",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -2727,6 +2734,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "menuShouldBlockScroll": false,
                                         "menuShouldScrollIntoView": true,
                                         "minMenuHeight": 140,
+                                        "name": "day",
                                         "noOptionsMessage": [Function],
                                         "onChange": [Function],
                                         "onInputChange": [Function],
@@ -3077,6 +3085,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "day",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -3435,6 +3444,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "day",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -3643,6 +3653,11 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                   </IndicatorsContainer>
                                 </div>
                               </Control>
+                              <input
+                                name="day"
+                                type="hidden"
+                                value=""
+                              />
                             </div>
                           </SelectContainer>
                         </Select>
@@ -3686,6 +3701,8 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                   >
                     <SelectCustom
                       className="select"
+                      name="month"
+                      onChange={[Function]}
                       options={
                         Array [
                           Object {
@@ -3745,6 +3762,8 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                         defaultInputValue=""
                         defaultMenuIsOpen={false}
                         defaultValue={null}
+                        name="month"
+                        onChange={[Function]}
                         options={
                           Array [
                             Object {
@@ -3836,6 +3855,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                           menuShouldBlockScroll={false}
                           menuShouldScrollIntoView={true}
                           minMenuHeight={140}
+                          name="month"
                           noOptionsMessage={[Function]}
                           onChange={[Function]}
                           onInputChange={[Function]}
@@ -4010,6 +4030,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                 "menuShouldBlockScroll": false,
                                 "menuShouldScrollIntoView": true,
                                 "minMenuHeight": 140,
+                                "name": "month",
                                 "noOptionsMessage": [Function],
                                 "onChange": [Function],
                                 "onInputChange": [Function],
@@ -4217,6 +4238,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                     "menuShouldBlockScroll": false,
                                     "menuShouldScrollIntoView": true,
                                     "minMenuHeight": 140,
+                                    "name": "month",
                                     "noOptionsMessage": [Function],
                                     "onChange": [Function],
                                     "onInputChange": [Function],
@@ -4416,6 +4438,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "menuShouldBlockScroll": false,
                                         "menuShouldScrollIntoView": true,
                                         "minMenuHeight": 140,
+                                        "name": "month",
                                         "noOptionsMessage": [Function],
                                         "onChange": [Function],
                                         "onInputChange": [Function],
@@ -4615,6 +4638,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "month",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -4767,6 +4791,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "month",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -5052,6 +5077,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "menuShouldBlockScroll": false,
                                         "menuShouldScrollIntoView": true,
                                         "minMenuHeight": 140,
+                                        "name": "month",
                                         "noOptionsMessage": [Function],
                                         "onChange": [Function],
                                         "onInputChange": [Function],
@@ -5250,6 +5276,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "month",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -5456,6 +5483,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "month",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -5588,6 +5616,11 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                   </IndicatorsContainer>
                                 </div>
                               </Control>
+                              <input
+                                name="month"
+                                type="hidden"
+                                value=""
+                              />
                             </div>
                           </SelectContainer>
                         </Select>
@@ -5631,6 +5664,8 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                   >
                     <SelectCustom
                       className="select"
+                      name="year"
+                      onChange={[Function]}
                       options={
                         Array [
                           Object {
@@ -5742,6 +5777,8 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                         defaultInputValue=""
                         defaultMenuIsOpen={false}
                         defaultValue={null}
+                        name="year"
+                        onChange={[Function]}
                         options={
                           Array [
                             Object {
@@ -5885,6 +5922,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                           menuShouldBlockScroll={false}
                           menuShouldScrollIntoView={true}
                           minMenuHeight={140}
+                          name="year"
                           noOptionsMessage={[Function]}
                           onChange={[Function]}
                           onInputChange={[Function]}
@@ -6163,6 +6201,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                 "menuShouldBlockScroll": false,
                                 "menuShouldScrollIntoView": true,
                                 "minMenuHeight": 140,
+                                "name": "year",
                                 "noOptionsMessage": [Function],
                                 "onChange": [Function],
                                 "onInputChange": [Function],
@@ -6474,6 +6513,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                     "menuShouldBlockScroll": false,
                                     "menuShouldScrollIntoView": true,
                                     "minMenuHeight": 140,
+                                    "name": "year",
                                     "noOptionsMessage": [Function],
                                     "onChange": [Function],
                                     "onInputChange": [Function],
@@ -6777,6 +6817,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "menuShouldBlockScroll": false,
                                         "menuShouldScrollIntoView": true,
                                         "minMenuHeight": 140,
+                                        "name": "year",
                                         "noOptionsMessage": [Function],
                                         "onChange": [Function],
                                         "onInputChange": [Function],
@@ -7080,6 +7121,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "year",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -7284,6 +7326,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "year",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -7673,6 +7716,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "menuShouldBlockScroll": false,
                                         "menuShouldScrollIntoView": true,
                                         "minMenuHeight": 140,
+                                        "name": "year",
                                         "noOptionsMessage": [Function],
                                         "onChange": [Function],
                                         "onInputChange": [Function],
@@ -7975,6 +8019,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "year",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -8285,6 +8330,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "year",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -8469,6 +8515,11 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                   </IndicatorsContainer>
                                 </div>
                               </Control>
+                              <input
+                                name="year"
+                                type="hidden"
+                                value=""
+                              />
                             </div>
                           </SelectContainer>
                         </Select>
@@ -8691,11 +8742,13 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                     <SelectCustom
                       className="select"
                       id="gender"
+                      name="gender"
+                      onChange={[Function]}
                       options={
                         Array [
                           Object {
                             "label": "Male",
-                            "value": "manle",
+                            "value": "male",
                           },
                           Object {
                             "label": "Female",
@@ -8710,11 +8763,13 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                         defaultMenuIsOpen={false}
                         defaultValue={null}
                         id="gender"
+                        name="gender"
+                        onChange={[Function]}
                         options={
                           Array [
                             Object {
                               "label": "Male",
-                              "value": "manle",
+                              "value": "male",
                             },
                             Object {
                               "label": "Female",
@@ -8761,6 +8816,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                           menuShouldBlockScroll={false}
                           menuShouldScrollIntoView={true}
                           minMenuHeight={140}
+                          name="gender"
                           noOptionsMessage={[Function]}
                           onChange={[Function]}
                           onInputChange={[Function]}
@@ -8772,7 +8828,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                             Array [
                               Object {
                                 "label": "Male",
-                                "value": "manle",
+                                "value": "male",
                               },
                               Object {
                                 "label": "Female",
@@ -8816,7 +8872,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                               Array [
                                 Object {
                                   "label": "Male",
-                                  "value": "manle",
+                                  "value": "male",
                                 },
                                 Object {
                                   "label": "Female",
@@ -8856,6 +8912,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                 "menuShouldBlockScroll": false,
                                 "menuShouldScrollIntoView": true,
                                 "minMenuHeight": 140,
+                                "name": "gender",
                                 "noOptionsMessage": [Function],
                                 "onChange": [Function],
                                 "onInputChange": [Function],
@@ -8866,7 +8923,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                 "options": Array [
                                   Object {
                                     "label": "Male",
-                                    "value": "manle",
+                                    "value": "male",
                                   },
                                   Object {
                                     "label": "Female",
@@ -8945,7 +9002,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                   Array [
                                     Object {
                                       "label": "Male",
-                                      "value": "manle",
+                                      "value": "male",
                                     },
                                     Object {
                                       "label": "Female",
@@ -8985,6 +9042,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                     "menuShouldBlockScroll": false,
                                     "menuShouldScrollIntoView": true,
                                     "minMenuHeight": 140,
+                                    "name": "gender",
                                     "noOptionsMessage": [Function],
                                     "onChange": [Function],
                                     "onInputChange": [Function],
@@ -8995,7 +9053,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                     "options": Array [
                                       Object {
                                         "label": "Male",
-                                        "value": "manle",
+                                        "value": "male",
                                       },
                                       Object {
                                         "label": "Female",
@@ -9065,7 +9123,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                       Array [
                                         Object {
                                           "label": "Male",
-                                          "value": "manle",
+                                          "value": "male",
                                         },
                                         Object {
                                           "label": "Female",
@@ -9105,6 +9163,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "menuShouldBlockScroll": false,
                                         "menuShouldScrollIntoView": true,
                                         "minMenuHeight": 140,
+                                        "name": "gender",
                                         "noOptionsMessage": [Function],
                                         "onChange": [Function],
                                         "onInputChange": [Function],
@@ -9115,7 +9174,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "options": Array [
                                           Object {
                                             "label": "Male",
-                                            "value": "manle",
+                                            "value": "male",
                                           },
                                           Object {
                                             "label": "Female",
@@ -9185,7 +9244,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                           Array [
                                             Object {
                                               "label": "Male",
-                                              "value": "manle",
+                                              "value": "male",
                                             },
                                             Object {
                                               "label": "Female",
@@ -9225,6 +9284,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "gender",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -9235,7 +9295,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": "Male",
-                                                "value": "manle",
+                                                "value": "male",
                                               },
                                               Object {
                                                 "label": "Female",
@@ -9338,6 +9398,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "gender",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -9348,7 +9409,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": "Male",
-                                                "value": "manle",
+                                                "value": "male",
                                               },
                                               Object {
                                                 "label": "Female",
@@ -9504,7 +9565,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                       Array [
                                         Object {
                                           "label": "Male",
-                                          "value": "manle",
+                                          "value": "male",
                                         },
                                         Object {
                                           "label": "Female",
@@ -9544,6 +9605,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "menuShouldBlockScroll": false,
                                         "menuShouldScrollIntoView": true,
                                         "minMenuHeight": 140,
+                                        "name": "gender",
                                         "noOptionsMessage": [Function],
                                         "onChange": [Function],
                                         "onInputChange": [Function],
@@ -9554,7 +9616,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "options": Array [
                                           Object {
                                             "label": "Male",
-                                            "value": "manle",
+                                            "value": "male",
                                           },
                                           Object {
                                             "label": "Female",
@@ -9623,7 +9685,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                           Array [
                                             Object {
                                               "label": "Male",
-                                              "value": "manle",
+                                              "value": "male",
                                             },
                                             Object {
                                               "label": "Female",
@@ -9663,6 +9725,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "gender",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -9673,7 +9736,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": "Male",
-                                                "value": "manle",
+                                                "value": "male",
                                               },
                                               Object {
                                                 "label": "Female",
@@ -9750,7 +9813,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                           Array [
                                             Object {
                                               "label": "Male",
-                                              "value": "manle",
+                                              "value": "male",
                                             },
                                             Object {
                                               "label": "Female",
@@ -9790,6 +9853,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "menuShouldBlockScroll": false,
                                             "menuShouldScrollIntoView": true,
                                             "minMenuHeight": 140,
+                                            "name": "gender",
                                             "noOptionsMessage": [Function],
                                             "onChange": [Function],
                                             "onInputChange": [Function],
@@ -9800,7 +9864,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": "Male",
-                                                "value": "manle",
+                                                "value": "male",
                                               },
                                               Object {
                                                 "label": "Female",
@@ -9882,6 +9946,11 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                   </IndicatorsContainer>
                                 </div>
                               </Control>
+                              <input
+                                name="gender"
+                                type="hidden"
+                                value=""
+                              />
                             </div>
                           </SelectContainer>
                         </Select>

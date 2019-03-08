@@ -11,20 +11,36 @@ import { days, years, months } from 'utils/dates'
 import { familyMembers, row } from './FamilyMemberForm.module.scss'
 
 const FamilyMemberForm = ({ onSave }) => {
-  const [firstName, setFirstName] = useState('')
-  const [lastName, setLastName] = useState('')
-  const [email, setEmail] = useState('')
+  const initialState = {
+    firstName: '',
+    lastName: '',
+    email: '',
+    gender: '',
+    dateOfBirth: { day: '', month: '', year: '' },
+  }
+  const [member, setMember] = useState(initialState)
 
-  const member = {
-    firstName,
-    lastName,
+  const { firstName, lastName, email } = member
+
+  const handleInputChange = event => {
+    const { name, value } = event.target
+    setMember({ ...member, [name]: value })
+  }
+
+  const handleSelectChange = (option, input) => {
+    const { name } = input
+    const { value } = option
+    if (input.name === 'gender') {
+      setMember({ ...member, [name]: value })
+    } else {
+      setMember({ ...member, dateOfBirth: { [name]: value } })
+    }
   }
 
   return (
     <Container className={familyMembers}>
       <Row className={row}>
         <Col>
-          <h2>Add Family Member</h2>
           <p>
             Please remember that for children under the age of 16 all
             consultations must be via video and a parent or guardian must be
@@ -38,7 +54,7 @@ const FamilyMemberForm = ({ onSave }) => {
             label="First Name"
             name="firstName"
             value={firstName}
-            onChange={e => setFirstName(e.target.value)}
+            onChange={handleInputChange}
           />
         </Col>
         <Col>
@@ -46,7 +62,7 @@ const FamilyMemberForm = ({ onSave }) => {
             label="Last Name"
             name="lastName"
             value={lastName}
-            onChange={e => setLastName(e.target.value)}
+            onChange={handleInputChange}
           />
         </Col>
       </Row>
@@ -57,13 +73,31 @@ const FamilyMemberForm = ({ onSave }) => {
       </Row>
       <Row className={row} id="date-of-birth">
         <Col>
-          <Select className="select" placeholder="Day" options={days()} />
+          <Select
+            onChange={handleSelectChange}
+            name="day"
+            className="select"
+            placeholder="Day"
+            options={days()}
+          />
         </Col>
         <Col>
-          <Select className="select" placeholder="Month" options={months()} />
+          <Select
+            onChange={handleSelectChange}
+            name="month"
+            className="select"
+            placeholder="Month"
+            options={months()}
+          />
         </Col>
         <Col>
-          <Select className="select" placeholder="Year" options={years(1970)} />
+          <Select
+            onChange={handleSelectChange}
+            name="year"
+            className="select"
+            placeholder="Year"
+            options={years(1970)}
+          />
         </Col>
       </Row>
       <Row className={row}>
@@ -72,7 +106,7 @@ const FamilyMemberForm = ({ onSave }) => {
             label="Email"
             name="email"
             value={email}
-            onChange={e => setEmail(e.target.value)}
+            onChange={handleInputChange}
           />
         </Col>
       </Row>
@@ -86,8 +120,10 @@ const FamilyMemberForm = ({ onSave }) => {
           <Select
             id="gender"
             className="select"
+            name="gender"
+            onChange={handleSelectChange}
             options={[
-              { value: 'manle', label: 'Male' },
+              { value: 'male', label: 'Male' },
               { value: 'female', label: 'Female' },
             ]}
           />
