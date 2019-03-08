@@ -17,5 +17,6 @@ module.exports = override(
     styles: path.resolve(__dirname, 'src/styles'),
     utils: path.resolve(__dirname, 'src/utils'),
     images: path.resolve(__dirname, 'src/images'),
+    ducks: path.resolve(__dirname, 'src/redux/ducks'),
   })
 );

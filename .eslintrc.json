@@ -10,7 +10,10 @@
         "map": [
           ["components", "./src/components"],
           ["containers", "./src/containers"],
-          ["services", "./src/services"]
+          ["services", "./src/services"],
+          ["styels", "./src/styles"],
+          ["images", "./src/images"],
+          ["ducks", "./src/redux/ducks"]
         ]
       }
     },

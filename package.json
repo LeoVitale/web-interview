@@ -82,7 +82,8 @@
       "^styles(.*)$": "<rootDir>/src/styles$1",
       "^services(.*)$": "<rootDir>/src/services$1",
       "^utils(.*)$": "<rootDir>/src/utils$1",
-      "^images(.*)$": "<rootDir>/src/images$1"
+      "^images(.*)$": "<rootDir>/src/images$1",
+      "^ducks(.*)$": "<rootDir>/src/redux/ducks$1"
     }
   }
 }
