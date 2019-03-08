@@ -7,13 +7,14 @@ import Icon from 'components/atoms/Icon'
 import { modal, overlay, header, content, closeBtn } from './Modal.module.scss'
 import './ModalTransition.scss'
 
-const Modal = ({ children, open, onClose }) => {
+const Modal = ({ children, open, onClose, title }) => {
   return (
     <CSSTransition in={open} timeout={300} classNames="overlay" unmountOnExit>
       <div className={overlay}>
         <CSSTransition in={open} timeout={300} classNames="modal" unmountOnExit>
           <div className={modal}>
             <div className={header}>
+              {title && <h1>{title}</h1>}
               <Button onClick={onClose} className={closeBtn}>
                 <Icon type="close" />
               </Button>
@@ -30,6 +31,7 @@ Modal.propTypes = {
   children: PropTypes.node.isRequired,
   open: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
+  title: PropTypes.string.isRequired,
 }
 
 export default Modal
