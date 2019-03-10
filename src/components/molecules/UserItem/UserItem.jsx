@@ -11,11 +11,11 @@ import {
   addAvatar,
 } from './UserItem.module.scss'
 
-const UserItem = ({ action, user }) => {
+const UserItem = ({ action, user, header, subHeader }) => {
   const name = user ? `${user.firstName} ${user.lastName}` : ''
   const userProps = user
-    ? { title: name, subHeader: 'test' }
-    : { title: 'add family member' }
+    ? { title: name, subHeader }
+    : { title: header, subHeader }
 
   const avatarProps = user
     ? { name, img: user.avatar }
@@ -33,8 +33,10 @@ const UserItem = ({ action, user }) => {
 }
 
 UserItem.propTypes = {
-  action: PropTypes.node.isRequired,
+  action: PropTypes.node,
   user: PropTypes.object.isRequired,
+  subHeader: PropTypes.string.isRequired,
+  header: PropTypes.string.isRequired,
 }
 
 export default UserItem

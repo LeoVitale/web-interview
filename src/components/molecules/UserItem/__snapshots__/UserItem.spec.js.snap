@@ -40,16 +40,8 @@ exports[`<UserItem /> should render UserItem as expected 1`] = `
           </Icon>
         </div>
       </Avatar>
-      <UserHeader
-        title="add family member"
-      >
-        <div>
-          <span
-            className="title"
-          >
-            add family member
-          </span>
-        </div>
+      <UserHeader>
+        <div />
       </UserHeader>
     </div>
     <div
