@@ -6,7 +6,7 @@ export const years = startYear => {
   startYear = startYear || 1980
 
   while (startYear <= currentYear) {
-    years.push({ value: `${startYear++}`, label: startYear++ })
+    years.push({ value: `${startYear}`, label: startYear++ })
   }
   return years
 }
@@ -32,3 +32,5 @@ export const months = () =>
     }
     return { value: `${index + 1}`, label: month }
   })
+
+export const getDate = date => date.split('-')

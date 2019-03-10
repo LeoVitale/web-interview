@@ -44,9 +44,8 @@ class NewAppointments extends Component {
     this.toggleFamilyModal()
   }
 
-  handleSelectChange = (option, input) => {
-    const { name } = input
-    const { value } = option
+  handleSelectChange = event => {
+    const { name, value } = event.target
     this.setState({ [name]: value })
   }
 
@@ -117,7 +116,6 @@ class NewAppointments extends Component {
         <div>
           <Select
             id="type"
-            className="select"
             name="type"
             onChange={this.handleSelectChange}
             options={[

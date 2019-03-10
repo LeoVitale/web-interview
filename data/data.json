@@ -91,6 +91,13 @@
       "notes": "teste",
       "type": "Physio appointment",
       "id": 2
+    },
+    {
+      "userId": 4,
+      "dateTime": "2019-11-27T10:11:00.000Z",
+      "notes": "hhhh",
+      "type": "Physio appointment",
+      "id": 3
     }
   ],
   "family-members": [

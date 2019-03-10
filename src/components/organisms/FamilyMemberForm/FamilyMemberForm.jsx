@@ -43,10 +43,9 @@ const FamilyMemberForm = ({ onSave }) => {
     setMember({ ...member, [name]: value })
   }
 
-  const handleSelectChange = (option, input) => {
-    const { name } = input
-    const { value } = option
-    if (input.name === 'gender') {
+  const handleSelectChange = event => {
+    const { name, value } = event.target
+    if (name === 'gender') {
       setMember({ ...member, [name]: value })
     } else {
       setMember({
@@ -110,7 +109,6 @@ const FamilyMemberForm = ({ onSave }) => {
           <Select
             onChange={handleSelectChange}
             name="day"
-            className="select"
             placeholder="Day"
             options={days()}
           />
@@ -119,7 +117,6 @@ const FamilyMemberForm = ({ onSave }) => {
           <Select
             onChange={handleSelectChange}
             name="month"
-            className="select"
             placeholder="Month"
             options={months()}
           />
@@ -128,7 +125,6 @@ const FamilyMemberForm = ({ onSave }) => {
           <Select
             onChange={handleSelectChange}
             name="year"
-            className="select"
             placeholder="Year"
             options={years(1970)}
           />
@@ -153,8 +149,8 @@ const FamilyMemberForm = ({ onSave }) => {
         <Col>
           <Select
             id="gender"
-            className="select"
             name="gender"
+            value={gender}
             onChange={handleSelectChange}
             options={[
               { value: 'male', label: 'Male' },
