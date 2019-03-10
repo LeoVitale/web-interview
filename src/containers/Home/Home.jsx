@@ -47,7 +47,7 @@ class Home extends Component {
           <Title label="Account" tag="h3" />
           <MenuItem className={menuItem} label="Family" to="/family-members" />
           <Title label="Clinical Records" tag="h3" />
-          <MenuItem className={menuItem} label="Appointments" to="/" />
+          <MenuItem className={menuItem} label="Appointments" to="/appointments" />
           <MenuItem className={menuItem} label="Personal Details" to="/" />
         </nav>
         <Modal open={isModalOpen} onClose={this.openFamilyModal}>

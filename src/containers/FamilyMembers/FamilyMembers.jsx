@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+import Icon from 'components/atoms/Icon'
 import Title from 'components/atoms/Title'
 import Button from 'components/atoms/Button'
 import Modal from 'components/molecules/Modal'
@@ -47,7 +48,7 @@ class FamilyMembers extends Component {
             className={addFamilyMember}
             onClick={this.selectMember(member.id)}
           >
-            <UserItem user={member} />
+            <UserItem user={member} action={<Icon type="arrow" />}/>
           </Button>
         ))}
         <Button className={addFamilyMember} onClick={this.toggleModal}>
