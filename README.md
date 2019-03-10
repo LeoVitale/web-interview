@@ -3,14 +3,15 @@
 ## About Redux
 In this test I used some goods approachs about Redux
 
-* Ducks Modular Redux - [erikras](https://github.com/erikras/ducks-modular-redux)
-* Custom Middleware for Api Fetch
+* [Ducks Modular Redux](https://github.com/erikras/ducks-modular-redux)
+* Custom Middleware for Api Fetch [About Middlewares](https://redux.js.org/advanced/middleware)
 
 ## About React
 In this test I used some goods approachs about React
 * Hooks for forms
 * Modular components using Atomic Design Concepts
-
+* React Router
+* Create React App with Wired Configs without ejecting
 
 ## Concluded Tasks
 * Created Home Page
