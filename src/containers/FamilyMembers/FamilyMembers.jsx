@@ -28,7 +28,7 @@ class FamilyMembers extends Component {
 
   selectMember = id => () => {
     const { changeMember, onChangeMember } = this.props
-    onChangeMember()
+    onChangeMember && onChangeMember()
     changeMember(id)
   }
 

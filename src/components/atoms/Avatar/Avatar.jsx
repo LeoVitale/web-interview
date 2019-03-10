@@ -8,7 +8,7 @@ const Avatar = ({ img, name, icon, size, className }) => {
       return small
     } else if (size === 'xSmall') {
       return xSmall
-    }else {
+    } else {
       return medium
     }
   }
