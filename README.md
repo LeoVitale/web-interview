@@ -1,3 +1,29 @@
+# About the test
+
+## About Redux
+In this test I used some goods approachs about Redux
+
+* Ducks Modular Redux - [erikras]([https://github.com/erikras](https://github.com/erikras/ducks-modular-redux))
+* Custom Middleware for Api Fetch
+
+## About React
+In this test I used some goods approachs about React
+* Hooks for forms
+* Modular components using Atomic Design Concepts
+
+
+## Concluded Tasks
+* Created Home Page
+* Created Appointment Page
+* Created Family Member Page
+* Created New Appointment Page
+* Created Add Family Member Modal
+
+## InProgress Tasks
+* Edtion Flux for Members and Apointments
+* Breadcrumb components
+* Unit Tests
+
 # Babylon Web technical recruitment test
 
 Thanks for taking the time to complete our frontend coding test!
