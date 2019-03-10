@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-
+import PropTypes from 'prop-types'
 import FamilyMembers from 'containers/FamilyMembers'
+import { findMember } from 'utils/filters'
 
 import MenuItem from 'components/atoms/MenuItem'
 import Button from 'components/atoms/Button'
@@ -19,14 +20,23 @@ class Home extends Component {
     this.setState({ isModalOpen: !isModalOpen })
   }
 
+  onChangeMember = id => {
+    const { changeMember } = this.props
+    changeMember(id)
+    this.openFamilyModal()
+  }
+
   render() {
-    const { app } = this.props
+    const {
+      app: { memberSelected, user },
+      family: { members },
+    } = this.props
     const { isModalOpen } = this.state
 
     return (
       <div className={home}>
         <UserItem
-          user={app.user}
+          user={findMember(memberSelected, user, members)}
           action={
             <Button type="link" onClick={this.openFamilyModal}>
               change
@@ -39,11 +49,17 @@ class Home extends Component {
           <MenuItem className={menuItem} label="Personal Details" to="/" />
         </nav>
         <Modal title="Family" open={isModalOpen} onClose={this.openFamilyModal}>
-          <FamilyMembers />
+          <FamilyMembers onChangeMember={this.onChangeMember} />
         </Modal>
       </div>
     )
   }
+}
+
+Home.propTypes = {
+  app: PropTypes.object.isRequired,
+  family: PropTypes.object.isRequired,
+  changeMember: PropTypes.func.isRequired,
 }
 
 export default Home
