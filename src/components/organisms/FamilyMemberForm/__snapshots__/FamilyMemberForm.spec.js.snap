@@ -3707,51 +3707,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                         Array [
                           Object {
                             "label": "January",
-                            "value": "January",
+                            "value": "01",
                           },
                           Object {
                             "label": "February",
-                            "value": "February",
+                            "value": "02",
                           },
                           Object {
                             "label": "March",
-                            "value": "March",
+                            "value": "03",
                           },
                           Object {
                             "label": "April",
-                            "value": "April",
+                            "value": "04",
                           },
                           Object {
                             "label": "May",
-                            "value": "May",
+                            "value": "05",
                           },
                           Object {
                             "label": "June",
-                            "value": "June",
+                            "value": "06",
                           },
                           Object {
                             "label": "July",
-                            "value": "July",
+                            "value": "07",
                           },
                           Object {
                             "label": "August",
-                            "value": "August",
+                            "value": "08",
                           },
                           Object {
                             "label": "September",
-                            "value": "September",
+                            "value": "09",
                           },
                           Object {
                             "label": "October",
-                            "value": "October",
+                            "value": "010",
                           },
                           Object {
                             "label": "November",
-                            "value": "November",
+                            "value": "11",
                           },
                           Object {
                             "label": "December",
-                            "value": "December",
+                            "value": "12",
                           },
                         ]
                       }
@@ -3768,51 +3768,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                           Array [
                             Object {
                               "label": "January",
-                              "value": "January",
+                              "value": "01",
                             },
                             Object {
                               "label": "February",
-                              "value": "February",
+                              "value": "02",
                             },
                             Object {
                               "label": "March",
-                              "value": "March",
+                              "value": "03",
                             },
                             Object {
                               "label": "April",
-                              "value": "April",
+                              "value": "04",
                             },
                             Object {
                               "label": "May",
-                              "value": "May",
+                              "value": "05",
                             },
                             Object {
                               "label": "June",
-                              "value": "June",
+                              "value": "06",
                             },
                             Object {
                               "label": "July",
-                              "value": "July",
+                              "value": "07",
                             },
                             Object {
                               "label": "August",
-                              "value": "August",
+                              "value": "08",
                             },
                             Object {
                               "label": "September",
-                              "value": "September",
+                              "value": "09",
                             },
                             Object {
                               "label": "October",
-                              "value": "October",
+                              "value": "010",
                             },
                             Object {
                               "label": "November",
-                              "value": "November",
+                              "value": "11",
                             },
                             Object {
                               "label": "December",
-                              "value": "December",
+                              "value": "12",
                             },
                           ]
                         }
@@ -3867,51 +3867,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                             Array [
                               Object {
                                 "label": "January",
-                                "value": "January",
+                                "value": "01",
                               },
                               Object {
                                 "label": "February",
-                                "value": "February",
+                                "value": "02",
                               },
                               Object {
                                 "label": "March",
-                                "value": "March",
+                                "value": "03",
                               },
                               Object {
                                 "label": "April",
-                                "value": "April",
+                                "value": "04",
                               },
                               Object {
                                 "label": "May",
-                                "value": "May",
+                                "value": "05",
                               },
                               Object {
                                 "label": "June",
-                                "value": "June",
+                                "value": "06",
                               },
                               Object {
                                 "label": "July",
-                                "value": "July",
+                                "value": "07",
                               },
                               Object {
                                 "label": "August",
-                                "value": "August",
+                                "value": "08",
                               },
                               Object {
                                 "label": "September",
-                                "value": "September",
+                                "value": "09",
                               },
                               Object {
                                 "label": "October",
-                                "value": "October",
+                                "value": "010",
                               },
                               Object {
                                 "label": "November",
-                                "value": "November",
+                                "value": "11",
                               },
                               Object {
                                 "label": "December",
-                                "value": "December",
+                                "value": "12",
                               },
                             ]
                           }
@@ -3951,51 +3951,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                               Array [
                                 Object {
                                   "label": "January",
-                                  "value": "January",
+                                  "value": "01",
                                 },
                                 Object {
                                   "label": "February",
-                                  "value": "February",
+                                  "value": "02",
                                 },
                                 Object {
                                   "label": "March",
-                                  "value": "March",
+                                  "value": "03",
                                 },
                                 Object {
                                   "label": "April",
-                                  "value": "April",
+                                  "value": "04",
                                 },
                                 Object {
                                   "label": "May",
-                                  "value": "May",
+                                  "value": "05",
                                 },
                                 Object {
                                   "label": "June",
-                                  "value": "June",
+                                  "value": "06",
                                 },
                                 Object {
                                   "label": "July",
-                                  "value": "July",
+                                  "value": "07",
                                 },
                                 Object {
                                   "label": "August",
-                                  "value": "August",
+                                  "value": "08",
                                 },
                                 Object {
                                   "label": "September",
-                                  "value": "September",
+                                  "value": "09",
                                 },
                                 Object {
                                   "label": "October",
-                                  "value": "October",
+                                  "value": "010",
                                 },
                                 Object {
                                   "label": "November",
-                                  "value": "November",
+                                  "value": "11",
                                 },
                                 Object {
                                   "label": "December",
-                                  "value": "December",
+                                  "value": "12",
                                 },
                               ]
                             }
@@ -4041,51 +4041,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                 "options": Array [
                                   Object {
                                     "label": "January",
-                                    "value": "January",
+                                    "value": "01",
                                   },
                                   Object {
                                     "label": "February",
-                                    "value": "February",
+                                    "value": "02",
                                   },
                                   Object {
                                     "label": "March",
-                                    "value": "March",
+                                    "value": "03",
                                   },
                                   Object {
                                     "label": "April",
-                                    "value": "April",
+                                    "value": "04",
                                   },
                                   Object {
                                     "label": "May",
-                                    "value": "May",
+                                    "value": "05",
                                   },
                                   Object {
                                     "label": "June",
-                                    "value": "June",
+                                    "value": "06",
                                   },
                                   Object {
                                     "label": "July",
-                                    "value": "July",
+                                    "value": "07",
                                   },
                                   Object {
                                     "label": "August",
-                                    "value": "August",
+                                    "value": "08",
                                   },
                                   Object {
                                     "label": "September",
-                                    "value": "September",
+                                    "value": "09",
                                   },
                                   Object {
                                     "label": "October",
-                                    "value": "October",
+                                    "value": "010",
                                   },
                                   Object {
                                     "label": "November",
-                                    "value": "November",
+                                    "value": "11",
                                   },
                                   Object {
                                     "label": "December",
-                                    "value": "December",
+                                    "value": "12",
                                   },
                                 ],
                                 "pageSize": 5,
@@ -4159,51 +4159,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                   Array [
                                     Object {
                                       "label": "January",
-                                      "value": "January",
+                                      "value": "01",
                                     },
                                     Object {
                                       "label": "February",
-                                      "value": "February",
+                                      "value": "02",
                                     },
                                     Object {
                                       "label": "March",
-                                      "value": "March",
+                                      "value": "03",
                                     },
                                     Object {
                                       "label": "April",
-                                      "value": "April",
+                                      "value": "04",
                                     },
                                     Object {
                                       "label": "May",
-                                      "value": "May",
+                                      "value": "05",
                                     },
                                     Object {
                                       "label": "June",
-                                      "value": "June",
+                                      "value": "06",
                                     },
                                     Object {
                                       "label": "July",
-                                      "value": "July",
+                                      "value": "07",
                                     },
                                     Object {
                                       "label": "August",
-                                      "value": "August",
+                                      "value": "08",
                                     },
                                     Object {
                                       "label": "September",
-                                      "value": "September",
+                                      "value": "09",
                                     },
                                     Object {
                                       "label": "October",
-                                      "value": "October",
+                                      "value": "010",
                                     },
                                     Object {
                                       "label": "November",
-                                      "value": "November",
+                                      "value": "11",
                                     },
                                     Object {
                                       "label": "December",
-                                      "value": "December",
+                                      "value": "12",
                                     },
                                   ]
                                 }
@@ -4249,51 +4249,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                     "options": Array [
                                       Object {
                                         "label": "January",
-                                        "value": "January",
+                                        "value": "01",
                                       },
                                       Object {
                                         "label": "February",
-                                        "value": "February",
+                                        "value": "02",
                                       },
                                       Object {
                                         "label": "March",
-                                        "value": "March",
+                                        "value": "03",
                                       },
                                       Object {
                                         "label": "April",
-                                        "value": "April",
+                                        "value": "04",
                                       },
                                       Object {
                                         "label": "May",
-                                        "value": "May",
+                                        "value": "05",
                                       },
                                       Object {
                                         "label": "June",
-                                        "value": "June",
+                                        "value": "06",
                                       },
                                       Object {
                                         "label": "July",
-                                        "value": "July",
+                                        "value": "07",
                                       },
                                       Object {
                                         "label": "August",
-                                        "value": "August",
+                                        "value": "08",
                                       },
                                       Object {
                                         "label": "September",
-                                        "value": "September",
+                                        "value": "09",
                                       },
                                       Object {
                                         "label": "October",
-                                        "value": "October",
+                                        "value": "010",
                                       },
                                       Object {
                                         "label": "November",
-                                        "value": "November",
+                                        "value": "11",
                                       },
                                       Object {
                                         "label": "December",
-                                        "value": "December",
+                                        "value": "12",
                                       },
                                     ],
                                     "pageSize": 5,
@@ -4359,51 +4359,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                       Array [
                                         Object {
                                           "label": "January",
-                                          "value": "January",
+                                          "value": "01",
                                         },
                                         Object {
                                           "label": "February",
-                                          "value": "February",
+                                          "value": "02",
                                         },
                                         Object {
                                           "label": "March",
-                                          "value": "March",
+                                          "value": "03",
                                         },
                                         Object {
                                           "label": "April",
-                                          "value": "April",
+                                          "value": "04",
                                         },
                                         Object {
                                           "label": "May",
-                                          "value": "May",
+                                          "value": "05",
                                         },
                                         Object {
                                           "label": "June",
-                                          "value": "June",
+                                          "value": "06",
                                         },
                                         Object {
                                           "label": "July",
-                                          "value": "July",
+                                          "value": "07",
                                         },
                                         Object {
                                           "label": "August",
-                                          "value": "August",
+                                          "value": "08",
                                         },
                                         Object {
                                           "label": "September",
-                                          "value": "September",
+                                          "value": "09",
                                         },
                                         Object {
                                           "label": "October",
-                                          "value": "October",
+                                          "value": "010",
                                         },
                                         Object {
                                           "label": "November",
-                                          "value": "November",
+                                          "value": "11",
                                         },
                                         Object {
                                           "label": "December",
-                                          "value": "December",
+                                          "value": "12",
                                         },
                                       ]
                                     }
@@ -4449,51 +4449,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "options": Array [
                                           Object {
                                             "label": "January",
-                                            "value": "January",
+                                            "value": "01",
                                           },
                                           Object {
                                             "label": "February",
-                                            "value": "February",
+                                            "value": "02",
                                           },
                                           Object {
                                             "label": "March",
-                                            "value": "March",
+                                            "value": "03",
                                           },
                                           Object {
                                             "label": "April",
-                                            "value": "April",
+                                            "value": "04",
                                           },
                                           Object {
                                             "label": "May",
-                                            "value": "May",
+                                            "value": "05",
                                           },
                                           Object {
                                             "label": "June",
-                                            "value": "June",
+                                            "value": "06",
                                           },
                                           Object {
                                             "label": "July",
-                                            "value": "July",
+                                            "value": "07",
                                           },
                                           Object {
                                             "label": "August",
-                                            "value": "August",
+                                            "value": "08",
                                           },
                                           Object {
                                             "label": "September",
-                                            "value": "September",
+                                            "value": "09",
                                           },
                                           Object {
                                             "label": "October",
-                                            "value": "October",
+                                            "value": "010",
                                           },
                                           Object {
                                             "label": "November",
-                                            "value": "November",
+                                            "value": "11",
                                           },
                                           Object {
                                             "label": "December",
-                                            "value": "December",
+                                            "value": "12",
                                           },
                                         ],
                                         "pageSize": 5,
@@ -4559,51 +4559,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                           Array [
                                             Object {
                                               "label": "January",
-                                              "value": "January",
+                                              "value": "01",
                                             },
                                             Object {
                                               "label": "February",
-                                              "value": "February",
+                                              "value": "02",
                                             },
                                             Object {
                                               "label": "March",
-                                              "value": "March",
+                                              "value": "03",
                                             },
                                             Object {
                                               "label": "April",
-                                              "value": "April",
+                                              "value": "04",
                                             },
                                             Object {
                                               "label": "May",
-                                              "value": "May",
+                                              "value": "05",
                                             },
                                             Object {
                                               "label": "June",
-                                              "value": "June",
+                                              "value": "06",
                                             },
                                             Object {
                                               "label": "July",
-                                              "value": "July",
+                                              "value": "07",
                                             },
                                             Object {
                                               "label": "August",
-                                              "value": "August",
+                                              "value": "08",
                                             },
                                             Object {
                                               "label": "September",
-                                              "value": "September",
+                                              "value": "09",
                                             },
                                             Object {
                                               "label": "October",
-                                              "value": "October",
+                                              "value": "010",
                                             },
                                             Object {
                                               "label": "November",
-                                              "value": "November",
+                                              "value": "11",
                                             },
                                             Object {
                                               "label": "December",
-                                              "value": "December",
+                                              "value": "12",
                                             },
                                           ]
                                         }
@@ -4649,51 +4649,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": "January",
-                                                "value": "January",
+                                                "value": "01",
                                               },
                                               Object {
                                                 "label": "February",
-                                                "value": "February",
+                                                "value": "02",
                                               },
                                               Object {
                                                 "label": "March",
-                                                "value": "March",
+                                                "value": "03",
                                               },
                                               Object {
                                                 "label": "April",
-                                                "value": "April",
+                                                "value": "04",
                                               },
                                               Object {
                                                 "label": "May",
-                                                "value": "May",
+                                                "value": "05",
                                               },
                                               Object {
                                                 "label": "June",
-                                                "value": "June",
+                                                "value": "06",
                                               },
                                               Object {
                                                 "label": "July",
-                                                "value": "July",
+                                                "value": "07",
                                               },
                                               Object {
                                                 "label": "August",
-                                                "value": "August",
+                                                "value": "08",
                                               },
                                               Object {
                                                 "label": "September",
-                                                "value": "September",
+                                                "value": "09",
                                               },
                                               Object {
                                                 "label": "October",
-                                                "value": "October",
+                                                "value": "010",
                                               },
                                               Object {
                                                 "label": "November",
-                                                "value": "November",
+                                                "value": "11",
                                               },
                                               Object {
                                                 "label": "December",
-                                                "value": "December",
+                                                "value": "12",
                                               },
                                             ],
                                             "pageSize": 5,
@@ -4802,51 +4802,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": "January",
-                                                "value": "January",
+                                                "value": "01",
                                               },
                                               Object {
                                                 "label": "February",
-                                                "value": "February",
+                                                "value": "02",
                                               },
                                               Object {
                                                 "label": "March",
-                                                "value": "March",
+                                                "value": "03",
                                               },
                                               Object {
                                                 "label": "April",
-                                                "value": "April",
+                                                "value": "04",
                                               },
                                               Object {
                                                 "label": "May",
-                                                "value": "May",
+                                                "value": "05",
                                               },
                                               Object {
                                                 "label": "June",
-                                                "value": "June",
+                                                "value": "06",
                                               },
                                               Object {
                                                 "label": "July",
-                                                "value": "July",
+                                                "value": "07",
                                               },
                                               Object {
                                                 "label": "August",
-                                                "value": "August",
+                                                "value": "08",
                                               },
                                               Object {
                                                 "label": "September",
-                                                "value": "September",
+                                                "value": "09",
                                               },
                                               Object {
                                                 "label": "October",
-                                                "value": "October",
+                                                "value": "010",
                                               },
                                               Object {
                                                 "label": "November",
-                                                "value": "November",
+                                                "value": "11",
                                               },
                                               Object {
                                                 "label": "December",
-                                                "value": "December",
+                                                "value": "12",
                                               },
                                             ],
                                             "pageSize": 5,
@@ -4998,51 +4998,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                       Array [
                                         Object {
                                           "label": "January",
-                                          "value": "January",
+                                          "value": "01",
                                         },
                                         Object {
                                           "label": "February",
-                                          "value": "February",
+                                          "value": "02",
                                         },
                                         Object {
                                           "label": "March",
-                                          "value": "March",
+                                          "value": "03",
                                         },
                                         Object {
                                           "label": "April",
-                                          "value": "April",
+                                          "value": "04",
                                         },
                                         Object {
                                           "label": "May",
-                                          "value": "May",
+                                          "value": "05",
                                         },
                                         Object {
                                           "label": "June",
-                                          "value": "June",
+                                          "value": "06",
                                         },
                                         Object {
                                           "label": "July",
-                                          "value": "July",
+                                          "value": "07",
                                         },
                                         Object {
                                           "label": "August",
-                                          "value": "August",
+                                          "value": "08",
                                         },
                                         Object {
                                           "label": "September",
-                                          "value": "September",
+                                          "value": "09",
                                         },
                                         Object {
                                           "label": "October",
-                                          "value": "October",
+                                          "value": "010",
                                         },
                                         Object {
                                           "label": "November",
-                                          "value": "November",
+                                          "value": "11",
                                         },
                                         Object {
                                           "label": "December",
-                                          "value": "December",
+                                          "value": "12",
                                         },
                                       ]
                                     }
@@ -5088,51 +5088,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "options": Array [
                                           Object {
                                             "label": "January",
-                                            "value": "January",
+                                            "value": "01",
                                           },
                                           Object {
                                             "label": "February",
-                                            "value": "February",
+                                            "value": "02",
                                           },
                                           Object {
                                             "label": "March",
-                                            "value": "March",
+                                            "value": "03",
                                           },
                                           Object {
                                             "label": "April",
-                                            "value": "April",
+                                            "value": "04",
                                           },
                                           Object {
                                             "label": "May",
-                                            "value": "May",
+                                            "value": "05",
                                           },
                                           Object {
                                             "label": "June",
-                                            "value": "June",
+                                            "value": "06",
                                           },
                                           Object {
                                             "label": "July",
-                                            "value": "July",
+                                            "value": "07",
                                           },
                                           Object {
                                             "label": "August",
-                                            "value": "August",
+                                            "value": "08",
                                           },
                                           Object {
                                             "label": "September",
-                                            "value": "September",
+                                            "value": "09",
                                           },
                                           Object {
                                             "label": "October",
-                                            "value": "October",
+                                            "value": "010",
                                           },
                                           Object {
                                             "label": "November",
-                                            "value": "November",
+                                            "value": "11",
                                           },
                                           Object {
                                             "label": "December",
-                                            "value": "December",
+                                            "value": "12",
                                           },
                                         ],
                                         "pageSize": 5,
@@ -5197,51 +5197,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                           Array [
                                             Object {
                                               "label": "January",
-                                              "value": "January",
+                                              "value": "01",
                                             },
                                             Object {
                                               "label": "February",
-                                              "value": "February",
+                                              "value": "02",
                                             },
                                             Object {
                                               "label": "March",
-                                              "value": "March",
+                                              "value": "03",
                                             },
                                             Object {
                                               "label": "April",
-                                              "value": "April",
+                                              "value": "04",
                                             },
                                             Object {
                                               "label": "May",
-                                              "value": "May",
+                                              "value": "05",
                                             },
                                             Object {
                                               "label": "June",
-                                              "value": "June",
+                                              "value": "06",
                                             },
                                             Object {
                                               "label": "July",
-                                              "value": "July",
+                                              "value": "07",
                                             },
                                             Object {
                                               "label": "August",
-                                              "value": "August",
+                                              "value": "08",
                                             },
                                             Object {
                                               "label": "September",
-                                              "value": "September",
+                                              "value": "09",
                                             },
                                             Object {
                                               "label": "October",
-                                              "value": "October",
+                                              "value": "010",
                                             },
                                             Object {
                                               "label": "November",
-                                              "value": "November",
+                                              "value": "11",
                                             },
                                             Object {
                                               "label": "December",
-                                              "value": "December",
+                                              "value": "12",
                                             },
                                           ]
                                         }
@@ -5287,51 +5287,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": "January",
-                                                "value": "January",
+                                                "value": "01",
                                               },
                                               Object {
                                                 "label": "February",
-                                                "value": "February",
+                                                "value": "02",
                                               },
                                               Object {
                                                 "label": "March",
-                                                "value": "March",
+                                                "value": "03",
                                               },
                                               Object {
                                                 "label": "April",
-                                                "value": "April",
+                                                "value": "04",
                                               },
                                               Object {
                                                 "label": "May",
-                                                "value": "May",
+                                                "value": "05",
                                               },
                                               Object {
                                                 "label": "June",
-                                                "value": "June",
+                                                "value": "06",
                                               },
                                               Object {
                                                 "label": "July",
-                                                "value": "July",
+                                                "value": "07",
                                               },
                                               Object {
                                                 "label": "August",
-                                                "value": "August",
+                                                "value": "08",
                                               },
                                               Object {
                                                 "label": "September",
-                                                "value": "September",
+                                                "value": "09",
                                               },
                                               Object {
                                                 "label": "October",
-                                                "value": "October",
+                                                "value": "010",
                                               },
                                               Object {
                                                 "label": "November",
-                                                "value": "November",
+                                                "value": "11",
                                               },
                                               Object {
                                                 "label": "December",
-                                                "value": "December",
+                                                "value": "12",
                                               },
                                             ],
                                             "pageSize": 5,
@@ -5404,51 +5404,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                           Array [
                                             Object {
                                               "label": "January",
-                                              "value": "January",
+                                              "value": "01",
                                             },
                                             Object {
                                               "label": "February",
-                                              "value": "February",
+                                              "value": "02",
                                             },
                                             Object {
                                               "label": "March",
-                                              "value": "March",
+                                              "value": "03",
                                             },
                                             Object {
                                               "label": "April",
-                                              "value": "April",
+                                              "value": "04",
                                             },
                                             Object {
                                               "label": "May",
-                                              "value": "May",
+                                              "value": "05",
                                             },
                                             Object {
                                               "label": "June",
-                                              "value": "June",
+                                              "value": "06",
                                             },
                                             Object {
                                               "label": "July",
-                                              "value": "July",
+                                              "value": "07",
                                             },
                                             Object {
                                               "label": "August",
-                                              "value": "August",
+                                              "value": "08",
                                             },
                                             Object {
                                               "label": "September",
-                                              "value": "September",
+                                              "value": "09",
                                             },
                                             Object {
                                               "label": "October",
-                                              "value": "October",
+                                              "value": "010",
                                             },
                                             Object {
                                               "label": "November",
-                                              "value": "November",
+                                              "value": "11",
                                             },
                                             Object {
                                               "label": "December",
-                                              "value": "December",
+                                              "value": "12",
                                             },
                                           ]
                                         }
@@ -5494,51 +5494,51 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": "January",
-                                                "value": "January",
+                                                "value": "01",
                                               },
                                               Object {
                                                 "label": "February",
-                                                "value": "February",
+                                                "value": "02",
                                               },
                                               Object {
                                                 "label": "March",
-                                                "value": "March",
+                                                "value": "03",
                                               },
                                               Object {
                                                 "label": "April",
-                                                "value": "April",
+                                                "value": "04",
                                               },
                                               Object {
                                                 "label": "May",
-                                                "value": "May",
+                                                "value": "05",
                                               },
                                               Object {
                                                 "label": "June",
-                                                "value": "June",
+                                                "value": "06",
                                               },
                                               Object {
                                                 "label": "July",
-                                                "value": "July",
+                                                "value": "07",
                                               },
                                               Object {
                                                 "label": "August",
-                                                "value": "August",
+                                                "value": "08",
                                               },
                                               Object {
                                                 "label": "September",
-                                                "value": "September",
+                                                "value": "09",
                                               },
                                               Object {
                                                 "label": "October",
-                                                "value": "October",
+                                                "value": "010",
                                               },
                                               Object {
                                                 "label": "November",
-                                                "value": "November",
+                                                "value": "11",
                                               },
                                               Object {
                                                 "label": "December",
-                                                "value": "December",
+                                                "value": "12",
                                               },
                                             ],
                                             "pageSize": 5,
@@ -5670,103 +5670,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                         Array [
                           Object {
                             "label": 1971,
-                            "value": 1970,
+                            "value": "1970",
                           },
                           Object {
                             "label": 1973,
-                            "value": 1972,
+                            "value": "1972",
                           },
                           Object {
                             "label": 1975,
-                            "value": 1974,
+                            "value": "1974",
                           },
                           Object {
                             "label": 1977,
-                            "value": 1976,
+                            "value": "1976",
                           },
                           Object {
                             "label": 1979,
-                            "value": 1978,
+                            "value": "1978",
                           },
                           Object {
                             "label": 1981,
-                            "value": 1980,
+                            "value": "1980",
                           },
                           Object {
                             "label": 1983,
-                            "value": 1982,
+                            "value": "1982",
                           },
                           Object {
                             "label": 1985,
-                            "value": 1984,
+                            "value": "1984",
                           },
                           Object {
                             "label": 1987,
-                            "value": 1986,
+                            "value": "1986",
                           },
                           Object {
                             "label": 1989,
-                            "value": 1988,
+                            "value": "1988",
                           },
                           Object {
                             "label": 1991,
-                            "value": 1990,
+                            "value": "1990",
                           },
                           Object {
                             "label": 1993,
-                            "value": 1992,
+                            "value": "1992",
                           },
                           Object {
                             "label": 1995,
-                            "value": 1994,
+                            "value": "1994",
                           },
                           Object {
                             "label": 1997,
-                            "value": 1996,
+                            "value": "1996",
                           },
                           Object {
                             "label": 1999,
-                            "value": 1998,
+                            "value": "1998",
                           },
                           Object {
                             "label": 2001,
-                            "value": 2000,
+                            "value": "2000",
                           },
                           Object {
                             "label": 2003,
-                            "value": 2002,
+                            "value": "2002",
                           },
                           Object {
                             "label": 2005,
-                            "value": 2004,
+                            "value": "2004",
                           },
                           Object {
                             "label": 2007,
-                            "value": 2006,
+                            "value": "2006",
                           },
                           Object {
                             "label": 2009,
-                            "value": 2008,
+                            "value": "2008",
                           },
                           Object {
                             "label": 2011,
-                            "value": 2010,
+                            "value": "2010",
                           },
                           Object {
                             "label": 2013,
-                            "value": 2012,
+                            "value": "2012",
                           },
                           Object {
                             "label": 2015,
-                            "value": 2014,
+                            "value": "2014",
                           },
                           Object {
                             "label": 2017,
-                            "value": 2016,
+                            "value": "2016",
                           },
                           Object {
                             "label": 2019,
-                            "value": 2018,
+                            "value": "2018",
                           },
                         ]
                       }
@@ -5783,103 +5783,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                           Array [
                             Object {
                               "label": 1971,
-                              "value": 1970,
+                              "value": "1970",
                             },
                             Object {
                               "label": 1973,
-                              "value": 1972,
+                              "value": "1972",
                             },
                             Object {
                               "label": 1975,
-                              "value": 1974,
+                              "value": "1974",
                             },
                             Object {
                               "label": 1977,
-                              "value": 1976,
+                              "value": "1976",
                             },
                             Object {
                               "label": 1979,
-                              "value": 1978,
+                              "value": "1978",
                             },
                             Object {
                               "label": 1981,
-                              "value": 1980,
+                              "value": "1980",
                             },
                             Object {
                               "label": 1983,
-                              "value": 1982,
+                              "value": "1982",
                             },
                             Object {
                               "label": 1985,
-                              "value": 1984,
+                              "value": "1984",
                             },
                             Object {
                               "label": 1987,
-                              "value": 1986,
+                              "value": "1986",
                             },
                             Object {
                               "label": 1989,
-                              "value": 1988,
+                              "value": "1988",
                             },
                             Object {
                               "label": 1991,
-                              "value": 1990,
+                              "value": "1990",
                             },
                             Object {
                               "label": 1993,
-                              "value": 1992,
+                              "value": "1992",
                             },
                             Object {
                               "label": 1995,
-                              "value": 1994,
+                              "value": "1994",
                             },
                             Object {
                               "label": 1997,
-                              "value": 1996,
+                              "value": "1996",
                             },
                             Object {
                               "label": 1999,
-                              "value": 1998,
+                              "value": "1998",
                             },
                             Object {
                               "label": 2001,
-                              "value": 2000,
+                              "value": "2000",
                             },
                             Object {
                               "label": 2003,
-                              "value": 2002,
+                              "value": "2002",
                             },
                             Object {
                               "label": 2005,
-                              "value": 2004,
+                              "value": "2004",
                             },
                             Object {
                               "label": 2007,
-                              "value": 2006,
+                              "value": "2006",
                             },
                             Object {
                               "label": 2009,
-                              "value": 2008,
+                              "value": "2008",
                             },
                             Object {
                               "label": 2011,
-                              "value": 2010,
+                              "value": "2010",
                             },
                             Object {
                               "label": 2013,
-                              "value": 2012,
+                              "value": "2012",
                             },
                             Object {
                               "label": 2015,
-                              "value": 2014,
+                              "value": "2014",
                             },
                             Object {
                               "label": 2017,
-                              "value": 2016,
+                              "value": "2016",
                             },
                             Object {
                               "label": 2019,
-                              "value": 2018,
+                              "value": "2018",
                             },
                           ]
                         }
@@ -5934,103 +5934,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                             Array [
                               Object {
                                 "label": 1971,
-                                "value": 1970,
+                                "value": "1970",
                               },
                               Object {
                                 "label": 1973,
-                                "value": 1972,
+                                "value": "1972",
                               },
                               Object {
                                 "label": 1975,
-                                "value": 1974,
+                                "value": "1974",
                               },
                               Object {
                                 "label": 1977,
-                                "value": 1976,
+                                "value": "1976",
                               },
                               Object {
                                 "label": 1979,
-                                "value": 1978,
+                                "value": "1978",
                               },
                               Object {
                                 "label": 1981,
-                                "value": 1980,
+                                "value": "1980",
                               },
                               Object {
                                 "label": 1983,
-                                "value": 1982,
+                                "value": "1982",
                               },
                               Object {
                                 "label": 1985,
-                                "value": 1984,
+                                "value": "1984",
                               },
                               Object {
                                 "label": 1987,
-                                "value": 1986,
+                                "value": "1986",
                               },
                               Object {
                                 "label": 1989,
-                                "value": 1988,
+                                "value": "1988",
                               },
                               Object {
                                 "label": 1991,
-                                "value": 1990,
+                                "value": "1990",
                               },
                               Object {
                                 "label": 1993,
-                                "value": 1992,
+                                "value": "1992",
                               },
                               Object {
                                 "label": 1995,
-                                "value": 1994,
+                                "value": "1994",
                               },
                               Object {
                                 "label": 1997,
-                                "value": 1996,
+                                "value": "1996",
                               },
                               Object {
                                 "label": 1999,
-                                "value": 1998,
+                                "value": "1998",
                               },
                               Object {
                                 "label": 2001,
-                                "value": 2000,
+                                "value": "2000",
                               },
                               Object {
                                 "label": 2003,
-                                "value": 2002,
+                                "value": "2002",
                               },
                               Object {
                                 "label": 2005,
-                                "value": 2004,
+                                "value": "2004",
                               },
                               Object {
                                 "label": 2007,
-                                "value": 2006,
+                                "value": "2006",
                               },
                               Object {
                                 "label": 2009,
-                                "value": 2008,
+                                "value": "2008",
                               },
                               Object {
                                 "label": 2011,
-                                "value": 2010,
+                                "value": "2010",
                               },
                               Object {
                                 "label": 2013,
-                                "value": 2012,
+                                "value": "2012",
                               },
                               Object {
                                 "label": 2015,
-                                "value": 2014,
+                                "value": "2014",
                               },
                               Object {
                                 "label": 2017,
-                                "value": 2016,
+                                "value": "2016",
                               },
                               Object {
                                 "label": 2019,
-                                "value": 2018,
+                                "value": "2018",
                               },
                             ]
                           }
@@ -6070,103 +6070,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                               Array [
                                 Object {
                                   "label": 1971,
-                                  "value": 1970,
+                                  "value": "1970",
                                 },
                                 Object {
                                   "label": 1973,
-                                  "value": 1972,
+                                  "value": "1972",
                                 },
                                 Object {
                                   "label": 1975,
-                                  "value": 1974,
+                                  "value": "1974",
                                 },
                                 Object {
                                   "label": 1977,
-                                  "value": 1976,
+                                  "value": "1976",
                                 },
                                 Object {
                                   "label": 1979,
-                                  "value": 1978,
+                                  "value": "1978",
                                 },
                                 Object {
                                   "label": 1981,
-                                  "value": 1980,
+                                  "value": "1980",
                                 },
                                 Object {
                                   "label": 1983,
-                                  "value": 1982,
+                                  "value": "1982",
                                 },
                                 Object {
                                   "label": 1985,
-                                  "value": 1984,
+                                  "value": "1984",
                                 },
                                 Object {
                                   "label": 1987,
-                                  "value": 1986,
+                                  "value": "1986",
                                 },
                                 Object {
                                   "label": 1989,
-                                  "value": 1988,
+                                  "value": "1988",
                                 },
                                 Object {
                                   "label": 1991,
-                                  "value": 1990,
+                                  "value": "1990",
                                 },
                                 Object {
                                   "label": 1993,
-                                  "value": 1992,
+                                  "value": "1992",
                                 },
                                 Object {
                                   "label": 1995,
-                                  "value": 1994,
+                                  "value": "1994",
                                 },
                                 Object {
                                   "label": 1997,
-                                  "value": 1996,
+                                  "value": "1996",
                                 },
                                 Object {
                                   "label": 1999,
-                                  "value": 1998,
+                                  "value": "1998",
                                 },
                                 Object {
                                   "label": 2001,
-                                  "value": 2000,
+                                  "value": "2000",
                                 },
                                 Object {
                                   "label": 2003,
-                                  "value": 2002,
+                                  "value": "2002",
                                 },
                                 Object {
                                   "label": 2005,
-                                  "value": 2004,
+                                  "value": "2004",
                                 },
                                 Object {
                                   "label": 2007,
-                                  "value": 2006,
+                                  "value": "2006",
                                 },
                                 Object {
                                   "label": 2009,
-                                  "value": 2008,
+                                  "value": "2008",
                                 },
                                 Object {
                                   "label": 2011,
-                                  "value": 2010,
+                                  "value": "2010",
                                 },
                                 Object {
                                   "label": 2013,
-                                  "value": 2012,
+                                  "value": "2012",
                                 },
                                 Object {
                                   "label": 2015,
-                                  "value": 2014,
+                                  "value": "2014",
                                 },
                                 Object {
                                   "label": 2017,
-                                  "value": 2016,
+                                  "value": "2016",
                                 },
                                 Object {
                                   "label": 2019,
-                                  "value": 2018,
+                                  "value": "2018",
                                 },
                               ]
                             }
@@ -6212,103 +6212,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                 "options": Array [
                                   Object {
                                     "label": 1971,
-                                    "value": 1970,
+                                    "value": "1970",
                                   },
                                   Object {
                                     "label": 1973,
-                                    "value": 1972,
+                                    "value": "1972",
                                   },
                                   Object {
                                     "label": 1975,
-                                    "value": 1974,
+                                    "value": "1974",
                                   },
                                   Object {
                                     "label": 1977,
-                                    "value": 1976,
+                                    "value": "1976",
                                   },
                                   Object {
                                     "label": 1979,
-                                    "value": 1978,
+                                    "value": "1978",
                                   },
                                   Object {
                                     "label": 1981,
-                                    "value": 1980,
+                                    "value": "1980",
                                   },
                                   Object {
                                     "label": 1983,
-                                    "value": 1982,
+                                    "value": "1982",
                                   },
                                   Object {
                                     "label": 1985,
-                                    "value": 1984,
+                                    "value": "1984",
                                   },
                                   Object {
                                     "label": 1987,
-                                    "value": 1986,
+                                    "value": "1986",
                                   },
                                   Object {
                                     "label": 1989,
-                                    "value": 1988,
+                                    "value": "1988",
                                   },
                                   Object {
                                     "label": 1991,
-                                    "value": 1990,
+                                    "value": "1990",
                                   },
                                   Object {
                                     "label": 1993,
-                                    "value": 1992,
+                                    "value": "1992",
                                   },
                                   Object {
                                     "label": 1995,
-                                    "value": 1994,
+                                    "value": "1994",
                                   },
                                   Object {
                                     "label": 1997,
-                                    "value": 1996,
+                                    "value": "1996",
                                   },
                                   Object {
                                     "label": 1999,
-                                    "value": 1998,
+                                    "value": "1998",
                                   },
                                   Object {
                                     "label": 2001,
-                                    "value": 2000,
+                                    "value": "2000",
                                   },
                                   Object {
                                     "label": 2003,
-                                    "value": 2002,
+                                    "value": "2002",
                                   },
                                   Object {
                                     "label": 2005,
-                                    "value": 2004,
+                                    "value": "2004",
                                   },
                                   Object {
                                     "label": 2007,
-                                    "value": 2006,
+                                    "value": "2006",
                                   },
                                   Object {
                                     "label": 2009,
-                                    "value": 2008,
+                                    "value": "2008",
                                   },
                                   Object {
                                     "label": 2011,
-                                    "value": 2010,
+                                    "value": "2010",
                                   },
                                   Object {
                                     "label": 2013,
-                                    "value": 2012,
+                                    "value": "2012",
                                   },
                                   Object {
                                     "label": 2015,
-                                    "value": 2014,
+                                    "value": "2014",
                                   },
                                   Object {
                                     "label": 2017,
-                                    "value": 2016,
+                                    "value": "2016",
                                   },
                                   Object {
                                     "label": 2019,
-                                    "value": 2018,
+                                    "value": "2018",
                                   },
                                 ],
                                 "pageSize": 5,
@@ -6382,103 +6382,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                   Array [
                                     Object {
                                       "label": 1971,
-                                      "value": 1970,
+                                      "value": "1970",
                                     },
                                     Object {
                                       "label": 1973,
-                                      "value": 1972,
+                                      "value": "1972",
                                     },
                                     Object {
                                       "label": 1975,
-                                      "value": 1974,
+                                      "value": "1974",
                                     },
                                     Object {
                                       "label": 1977,
-                                      "value": 1976,
+                                      "value": "1976",
                                     },
                                     Object {
                                       "label": 1979,
-                                      "value": 1978,
+                                      "value": "1978",
                                     },
                                     Object {
                                       "label": 1981,
-                                      "value": 1980,
+                                      "value": "1980",
                                     },
                                     Object {
                                       "label": 1983,
-                                      "value": 1982,
+                                      "value": "1982",
                                     },
                                     Object {
                                       "label": 1985,
-                                      "value": 1984,
+                                      "value": "1984",
                                     },
                                     Object {
                                       "label": 1987,
-                                      "value": 1986,
+                                      "value": "1986",
                                     },
                                     Object {
                                       "label": 1989,
-                                      "value": 1988,
+                                      "value": "1988",
                                     },
                                     Object {
                                       "label": 1991,
-                                      "value": 1990,
+                                      "value": "1990",
                                     },
                                     Object {
                                       "label": 1993,
-                                      "value": 1992,
+                                      "value": "1992",
                                     },
                                     Object {
                                       "label": 1995,
-                                      "value": 1994,
+                                      "value": "1994",
                                     },
                                     Object {
                                       "label": 1997,
-                                      "value": 1996,
+                                      "value": "1996",
                                     },
                                     Object {
                                       "label": 1999,
-                                      "value": 1998,
+                                      "value": "1998",
                                     },
                                     Object {
                                       "label": 2001,
-                                      "value": 2000,
+                                      "value": "2000",
                                     },
                                     Object {
                                       "label": 2003,
-                                      "value": 2002,
+                                      "value": "2002",
                                     },
                                     Object {
                                       "label": 2005,
-                                      "value": 2004,
+                                      "value": "2004",
                                     },
                                     Object {
                                       "label": 2007,
-                                      "value": 2006,
+                                      "value": "2006",
                                     },
                                     Object {
                                       "label": 2009,
-                                      "value": 2008,
+                                      "value": "2008",
                                     },
                                     Object {
                                       "label": 2011,
-                                      "value": 2010,
+                                      "value": "2010",
                                     },
                                     Object {
                                       "label": 2013,
-                                      "value": 2012,
+                                      "value": "2012",
                                     },
                                     Object {
                                       "label": 2015,
-                                      "value": 2014,
+                                      "value": "2014",
                                     },
                                     Object {
                                       "label": 2017,
-                                      "value": 2016,
+                                      "value": "2016",
                                     },
                                     Object {
                                       "label": 2019,
-                                      "value": 2018,
+                                      "value": "2018",
                                     },
                                   ]
                                 }
@@ -6524,103 +6524,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                     "options": Array [
                                       Object {
                                         "label": 1971,
-                                        "value": 1970,
+                                        "value": "1970",
                                       },
                                       Object {
                                         "label": 1973,
-                                        "value": 1972,
+                                        "value": "1972",
                                       },
                                       Object {
                                         "label": 1975,
-                                        "value": 1974,
+                                        "value": "1974",
                                       },
                                       Object {
                                         "label": 1977,
-                                        "value": 1976,
+                                        "value": "1976",
                                       },
                                       Object {
                                         "label": 1979,
-                                        "value": 1978,
+                                        "value": "1978",
                                       },
                                       Object {
                                         "label": 1981,
-                                        "value": 1980,
+                                        "value": "1980",
                                       },
                                       Object {
                                         "label": 1983,
-                                        "value": 1982,
+                                        "value": "1982",
                                       },
                                       Object {
                                         "label": 1985,
-                                        "value": 1984,
+                                        "value": "1984",
                                       },
                                       Object {
                                         "label": 1987,
-                                        "value": 1986,
+                                        "value": "1986",
                                       },
                                       Object {
                                         "label": 1989,
-                                        "value": 1988,
+                                        "value": "1988",
                                       },
                                       Object {
                                         "label": 1991,
-                                        "value": 1990,
+                                        "value": "1990",
                                       },
                                       Object {
                                         "label": 1993,
-                                        "value": 1992,
+                                        "value": "1992",
                                       },
                                       Object {
                                         "label": 1995,
-                                        "value": 1994,
+                                        "value": "1994",
                                       },
                                       Object {
                                         "label": 1997,
-                                        "value": 1996,
+                                        "value": "1996",
                                       },
                                       Object {
                                         "label": 1999,
-                                        "value": 1998,
+                                        "value": "1998",
                                       },
                                       Object {
                                         "label": 2001,
-                                        "value": 2000,
+                                        "value": "2000",
                                       },
                                       Object {
                                         "label": 2003,
-                                        "value": 2002,
+                                        "value": "2002",
                                       },
                                       Object {
                                         "label": 2005,
-                                        "value": 2004,
+                                        "value": "2004",
                                       },
                                       Object {
                                         "label": 2007,
-                                        "value": 2006,
+                                        "value": "2006",
                                       },
                                       Object {
                                         "label": 2009,
-                                        "value": 2008,
+                                        "value": "2008",
                                       },
                                       Object {
                                         "label": 2011,
-                                        "value": 2010,
+                                        "value": "2010",
                                       },
                                       Object {
                                         "label": 2013,
-                                        "value": 2012,
+                                        "value": "2012",
                                       },
                                       Object {
                                         "label": 2015,
-                                        "value": 2014,
+                                        "value": "2014",
                                       },
                                       Object {
                                         "label": 2017,
-                                        "value": 2016,
+                                        "value": "2016",
                                       },
                                       Object {
                                         "label": 2019,
-                                        "value": 2018,
+                                        "value": "2018",
                                       },
                                     ],
                                     "pageSize": 5,
@@ -6686,103 +6686,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                       Array [
                                         Object {
                                           "label": 1971,
-                                          "value": 1970,
+                                          "value": "1970",
                                         },
                                         Object {
                                           "label": 1973,
-                                          "value": 1972,
+                                          "value": "1972",
                                         },
                                         Object {
                                           "label": 1975,
-                                          "value": 1974,
+                                          "value": "1974",
                                         },
                                         Object {
                                           "label": 1977,
-                                          "value": 1976,
+                                          "value": "1976",
                                         },
                                         Object {
                                           "label": 1979,
-                                          "value": 1978,
+                                          "value": "1978",
                                         },
                                         Object {
                                           "label": 1981,
-                                          "value": 1980,
+                                          "value": "1980",
                                         },
                                         Object {
                                           "label": 1983,
-                                          "value": 1982,
+                                          "value": "1982",
                                         },
                                         Object {
                                           "label": 1985,
-                                          "value": 1984,
+                                          "value": "1984",
                                         },
                                         Object {
                                           "label": 1987,
-                                          "value": 1986,
+                                          "value": "1986",
                                         },
                                         Object {
                                           "label": 1989,
-                                          "value": 1988,
+                                          "value": "1988",
                                         },
                                         Object {
                                           "label": 1991,
-                                          "value": 1990,
+                                          "value": "1990",
                                         },
                                         Object {
                                           "label": 1993,
-                                          "value": 1992,
+                                          "value": "1992",
                                         },
                                         Object {
                                           "label": 1995,
-                                          "value": 1994,
+                                          "value": "1994",
                                         },
                                         Object {
                                           "label": 1997,
-                                          "value": 1996,
+                                          "value": "1996",
                                         },
                                         Object {
                                           "label": 1999,
-                                          "value": 1998,
+                                          "value": "1998",
                                         },
                                         Object {
                                           "label": 2001,
-                                          "value": 2000,
+                                          "value": "2000",
                                         },
                                         Object {
                                           "label": 2003,
-                                          "value": 2002,
+                                          "value": "2002",
                                         },
                                         Object {
                                           "label": 2005,
-                                          "value": 2004,
+                                          "value": "2004",
                                         },
                                         Object {
                                           "label": 2007,
-                                          "value": 2006,
+                                          "value": "2006",
                                         },
                                         Object {
                                           "label": 2009,
-                                          "value": 2008,
+                                          "value": "2008",
                                         },
                                         Object {
                                           "label": 2011,
-                                          "value": 2010,
+                                          "value": "2010",
                                         },
                                         Object {
                                           "label": 2013,
-                                          "value": 2012,
+                                          "value": "2012",
                                         },
                                         Object {
                                           "label": 2015,
-                                          "value": 2014,
+                                          "value": "2014",
                                         },
                                         Object {
                                           "label": 2017,
-                                          "value": 2016,
+                                          "value": "2016",
                                         },
                                         Object {
                                           "label": 2019,
-                                          "value": 2018,
+                                          "value": "2018",
                                         },
                                       ]
                                     }
@@ -6828,103 +6828,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "options": Array [
                                           Object {
                                             "label": 1971,
-                                            "value": 1970,
+                                            "value": "1970",
                                           },
                                           Object {
                                             "label": 1973,
-                                            "value": 1972,
+                                            "value": "1972",
                                           },
                                           Object {
                                             "label": 1975,
-                                            "value": 1974,
+                                            "value": "1974",
                                           },
                                           Object {
                                             "label": 1977,
-                                            "value": 1976,
+                                            "value": "1976",
                                           },
                                           Object {
                                             "label": 1979,
-                                            "value": 1978,
+                                            "value": "1978",
                                           },
                                           Object {
                                             "label": 1981,
-                                            "value": 1980,
+                                            "value": "1980",
                                           },
                                           Object {
                                             "label": 1983,
-                                            "value": 1982,
+                                            "value": "1982",
                                           },
                                           Object {
                                             "label": 1985,
-                                            "value": 1984,
+                                            "value": "1984",
                                           },
                                           Object {
                                             "label": 1987,
-                                            "value": 1986,
+                                            "value": "1986",
                                           },
                                           Object {
                                             "label": 1989,
-                                            "value": 1988,
+                                            "value": "1988",
                                           },
                                           Object {
                                             "label": 1991,
-                                            "value": 1990,
+                                            "value": "1990",
                                           },
                                           Object {
                                             "label": 1993,
-                                            "value": 1992,
+                                            "value": "1992",
                                           },
                                           Object {
                                             "label": 1995,
-                                            "value": 1994,
+                                            "value": "1994",
                                           },
                                           Object {
                                             "label": 1997,
-                                            "value": 1996,
+                                            "value": "1996",
                                           },
                                           Object {
                                             "label": 1999,
-                                            "value": 1998,
+                                            "value": "1998",
                                           },
                                           Object {
                                             "label": 2001,
-                                            "value": 2000,
+                                            "value": "2000",
                                           },
                                           Object {
                                             "label": 2003,
-                                            "value": 2002,
+                                            "value": "2002",
                                           },
                                           Object {
                                             "label": 2005,
-                                            "value": 2004,
+                                            "value": "2004",
                                           },
                                           Object {
                                             "label": 2007,
-                                            "value": 2006,
+                                            "value": "2006",
                                           },
                                           Object {
                                             "label": 2009,
-                                            "value": 2008,
+                                            "value": "2008",
                                           },
                                           Object {
                                             "label": 2011,
-                                            "value": 2010,
+                                            "value": "2010",
                                           },
                                           Object {
                                             "label": 2013,
-                                            "value": 2012,
+                                            "value": "2012",
                                           },
                                           Object {
                                             "label": 2015,
-                                            "value": 2014,
+                                            "value": "2014",
                                           },
                                           Object {
                                             "label": 2017,
-                                            "value": 2016,
+                                            "value": "2016",
                                           },
                                           Object {
                                             "label": 2019,
-                                            "value": 2018,
+                                            "value": "2018",
                                           },
                                         ],
                                         "pageSize": 5,
@@ -6990,103 +6990,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                           Array [
                                             Object {
                                               "label": 1971,
-                                              "value": 1970,
+                                              "value": "1970",
                                             },
                                             Object {
                                               "label": 1973,
-                                              "value": 1972,
+                                              "value": "1972",
                                             },
                                             Object {
                                               "label": 1975,
-                                              "value": 1974,
+                                              "value": "1974",
                                             },
                                             Object {
                                               "label": 1977,
-                                              "value": 1976,
+                                              "value": "1976",
                                             },
                                             Object {
                                               "label": 1979,
-                                              "value": 1978,
+                                              "value": "1978",
                                             },
                                             Object {
                                               "label": 1981,
-                                              "value": 1980,
+                                              "value": "1980",
                                             },
                                             Object {
                                               "label": 1983,
-                                              "value": 1982,
+                                              "value": "1982",
                                             },
                                             Object {
                                               "label": 1985,
-                                              "value": 1984,
+                                              "value": "1984",
                                             },
                                             Object {
                                               "label": 1987,
-                                              "value": 1986,
+                                              "value": "1986",
                                             },
                                             Object {
                                               "label": 1989,
-                                              "value": 1988,
+                                              "value": "1988",
                                             },
                                             Object {
                                               "label": 1991,
-                                              "value": 1990,
+                                              "value": "1990",
                                             },
                                             Object {
                                               "label": 1993,
-                                              "value": 1992,
+                                              "value": "1992",
                                             },
                                             Object {
                                               "label": 1995,
-                                              "value": 1994,
+                                              "value": "1994",
                                             },
                                             Object {
                                               "label": 1997,
-                                              "value": 1996,
+                                              "value": "1996",
                                             },
                                             Object {
                                               "label": 1999,
-                                              "value": 1998,
+                                              "value": "1998",
                                             },
                                             Object {
                                               "label": 2001,
-                                              "value": 2000,
+                                              "value": "2000",
                                             },
                                             Object {
                                               "label": 2003,
-                                              "value": 2002,
+                                              "value": "2002",
                                             },
                                             Object {
                                               "label": 2005,
-                                              "value": 2004,
+                                              "value": "2004",
                                             },
                                             Object {
                                               "label": 2007,
-                                              "value": 2006,
+                                              "value": "2006",
                                             },
                                             Object {
                                               "label": 2009,
-                                              "value": 2008,
+                                              "value": "2008",
                                             },
                                             Object {
                                               "label": 2011,
-                                              "value": 2010,
+                                              "value": "2010",
                                             },
                                             Object {
                                               "label": 2013,
-                                              "value": 2012,
+                                              "value": "2012",
                                             },
                                             Object {
                                               "label": 2015,
-                                              "value": 2014,
+                                              "value": "2014",
                                             },
                                             Object {
                                               "label": 2017,
-                                              "value": 2016,
+                                              "value": "2016",
                                             },
                                             Object {
                                               "label": 2019,
-                                              "value": 2018,
+                                              "value": "2018",
                                             },
                                           ]
                                         }
@@ -7132,103 +7132,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": 1971,
-                                                "value": 1970,
+                                                "value": "1970",
                                               },
                                               Object {
                                                 "label": 1973,
-                                                "value": 1972,
+                                                "value": "1972",
                                               },
                                               Object {
                                                 "label": 1975,
-                                                "value": 1974,
+                                                "value": "1974",
                                               },
                                               Object {
                                                 "label": 1977,
-                                                "value": 1976,
+                                                "value": "1976",
                                               },
                                               Object {
                                                 "label": 1979,
-                                                "value": 1978,
+                                                "value": "1978",
                                               },
                                               Object {
                                                 "label": 1981,
-                                                "value": 1980,
+                                                "value": "1980",
                                               },
                                               Object {
                                                 "label": 1983,
-                                                "value": 1982,
+                                                "value": "1982",
                                               },
                                               Object {
                                                 "label": 1985,
-                                                "value": 1984,
+                                                "value": "1984",
                                               },
                                               Object {
                                                 "label": 1987,
-                                                "value": 1986,
+                                                "value": "1986",
                                               },
                                               Object {
                                                 "label": 1989,
-                                                "value": 1988,
+                                                "value": "1988",
                                               },
                                               Object {
                                                 "label": 1991,
-                                                "value": 1990,
+                                                "value": "1990",
                                               },
                                               Object {
                                                 "label": 1993,
-                                                "value": 1992,
+                                                "value": "1992",
                                               },
                                               Object {
                                                 "label": 1995,
-                                                "value": 1994,
+                                                "value": "1994",
                                               },
                                               Object {
                                                 "label": 1997,
-                                                "value": 1996,
+                                                "value": "1996",
                                               },
                                               Object {
                                                 "label": 1999,
-                                                "value": 1998,
+                                                "value": "1998",
                                               },
                                               Object {
                                                 "label": 2001,
-                                                "value": 2000,
+                                                "value": "2000",
                                               },
                                               Object {
                                                 "label": 2003,
-                                                "value": 2002,
+                                                "value": "2002",
                                               },
                                               Object {
                                                 "label": 2005,
-                                                "value": 2004,
+                                                "value": "2004",
                                               },
                                               Object {
                                                 "label": 2007,
-                                                "value": 2006,
+                                                "value": "2006",
                                               },
                                               Object {
                                                 "label": 2009,
-                                                "value": 2008,
+                                                "value": "2008",
                                               },
                                               Object {
                                                 "label": 2011,
-                                                "value": 2010,
+                                                "value": "2010",
                                               },
                                               Object {
                                                 "label": 2013,
-                                                "value": 2012,
+                                                "value": "2012",
                                               },
                                               Object {
                                                 "label": 2015,
-                                                "value": 2014,
+                                                "value": "2014",
                                               },
                                               Object {
                                                 "label": 2017,
-                                                "value": 2016,
+                                                "value": "2016",
                                               },
                                               Object {
                                                 "label": 2019,
-                                                "value": 2018,
+                                                "value": "2018",
                                               },
                                             ],
                                             "pageSize": 5,
@@ -7337,103 +7337,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": 1971,
-                                                "value": 1970,
+                                                "value": "1970",
                                               },
                                               Object {
                                                 "label": 1973,
-                                                "value": 1972,
+                                                "value": "1972",
                                               },
                                               Object {
                                                 "label": 1975,
-                                                "value": 1974,
+                                                "value": "1974",
                                               },
                                               Object {
                                                 "label": 1977,
-                                                "value": 1976,
+                                                "value": "1976",
                                               },
                                               Object {
                                                 "label": 1979,
-                                                "value": 1978,
+                                                "value": "1978",
                                               },
                                               Object {
                                                 "label": 1981,
-                                                "value": 1980,
+                                                "value": "1980",
                                               },
                                               Object {
                                                 "label": 1983,
-                                                "value": 1982,
+                                                "value": "1982",
                                               },
                                               Object {
                                                 "label": 1985,
-                                                "value": 1984,
+                                                "value": "1984",
                                               },
                                               Object {
                                                 "label": 1987,
-                                                "value": 1986,
+                                                "value": "1986",
                                               },
                                               Object {
                                                 "label": 1989,
-                                                "value": 1988,
+                                                "value": "1988",
                                               },
                                               Object {
                                                 "label": 1991,
-                                                "value": 1990,
+                                                "value": "1990",
                                               },
                                               Object {
                                                 "label": 1993,
-                                                "value": 1992,
+                                                "value": "1992",
                                               },
                                               Object {
                                                 "label": 1995,
-                                                "value": 1994,
+                                                "value": "1994",
                                               },
                                               Object {
                                                 "label": 1997,
-                                                "value": 1996,
+                                                "value": "1996",
                                               },
                                               Object {
                                                 "label": 1999,
-                                                "value": 1998,
+                                                "value": "1998",
                                               },
                                               Object {
                                                 "label": 2001,
-                                                "value": 2000,
+                                                "value": "2000",
                                               },
                                               Object {
                                                 "label": 2003,
-                                                "value": 2002,
+                                                "value": "2002",
                                               },
                                               Object {
                                                 "label": 2005,
-                                                "value": 2004,
+                                                "value": "2004",
                                               },
                                               Object {
                                                 "label": 2007,
-                                                "value": 2006,
+                                                "value": "2006",
                                               },
                                               Object {
                                                 "label": 2009,
-                                                "value": 2008,
+                                                "value": "2008",
                                               },
                                               Object {
                                                 "label": 2011,
-                                                "value": 2010,
+                                                "value": "2010",
                                               },
                                               Object {
                                                 "label": 2013,
-                                                "value": 2012,
+                                                "value": "2012",
                                               },
                                               Object {
                                                 "label": 2015,
-                                                "value": 2014,
+                                                "value": "2014",
                                               },
                                               Object {
                                                 "label": 2017,
-                                                "value": 2016,
+                                                "value": "2016",
                                               },
                                               Object {
                                                 "label": 2019,
-                                                "value": 2018,
+                                                "value": "2018",
                                               },
                                             ],
                                             "pageSize": 5,
@@ -7585,103 +7585,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                       Array [
                                         Object {
                                           "label": 1971,
-                                          "value": 1970,
+                                          "value": "1970",
                                         },
                                         Object {
                                           "label": 1973,
-                                          "value": 1972,
+                                          "value": "1972",
                                         },
                                         Object {
                                           "label": 1975,
-                                          "value": 1974,
+                                          "value": "1974",
                                         },
                                         Object {
                                           "label": 1977,
-                                          "value": 1976,
+                                          "value": "1976",
                                         },
                                         Object {
                                           "label": 1979,
-                                          "value": 1978,
+                                          "value": "1978",
                                         },
                                         Object {
                                           "label": 1981,
-                                          "value": 1980,
+                                          "value": "1980",
                                         },
                                         Object {
                                           "label": 1983,
-                                          "value": 1982,
+                                          "value": "1982",
                                         },
                                         Object {
                                           "label": 1985,
-                                          "value": 1984,
+                                          "value": "1984",
                                         },
                                         Object {
                                           "label": 1987,
-                                          "value": 1986,
+                                          "value": "1986",
                                         },
                                         Object {
                                           "label": 1989,
-                                          "value": 1988,
+                                          "value": "1988",
                                         },
                                         Object {
                                           "label": 1991,
-                                          "value": 1990,
+                                          "value": "1990",
                                         },
                                         Object {
                                           "label": 1993,
-                                          "value": 1992,
+                                          "value": "1992",
                                         },
                                         Object {
                                           "label": 1995,
-                                          "value": 1994,
+                                          "value": "1994",
                                         },
                                         Object {
                                           "label": 1997,
-                                          "value": 1996,
+                                          "value": "1996",
                                         },
                                         Object {
                                           "label": 1999,
-                                          "value": 1998,
+                                          "value": "1998",
                                         },
                                         Object {
                                           "label": 2001,
-                                          "value": 2000,
+                                          "value": "2000",
                                         },
                                         Object {
                                           "label": 2003,
-                                          "value": 2002,
+                                          "value": "2002",
                                         },
                                         Object {
                                           "label": 2005,
-                                          "value": 2004,
+                                          "value": "2004",
                                         },
                                         Object {
                                           "label": 2007,
-                                          "value": 2006,
+                                          "value": "2006",
                                         },
                                         Object {
                                           "label": 2009,
-                                          "value": 2008,
+                                          "value": "2008",
                                         },
                                         Object {
                                           "label": 2011,
-                                          "value": 2010,
+                                          "value": "2010",
                                         },
                                         Object {
                                           "label": 2013,
-                                          "value": 2012,
+                                          "value": "2012",
                                         },
                                         Object {
                                           "label": 2015,
-                                          "value": 2014,
+                                          "value": "2014",
                                         },
                                         Object {
                                           "label": 2017,
-                                          "value": 2016,
+                                          "value": "2016",
                                         },
                                         Object {
                                           "label": 2019,
-                                          "value": 2018,
+                                          "value": "2018",
                                         },
                                       ]
                                     }
@@ -7727,103 +7727,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                         "options": Array [
                                           Object {
                                             "label": 1971,
-                                            "value": 1970,
+                                            "value": "1970",
                                           },
                                           Object {
                                             "label": 1973,
-                                            "value": 1972,
+                                            "value": "1972",
                                           },
                                           Object {
                                             "label": 1975,
-                                            "value": 1974,
+                                            "value": "1974",
                                           },
                                           Object {
                                             "label": 1977,
-                                            "value": 1976,
+                                            "value": "1976",
                                           },
                                           Object {
                                             "label": 1979,
-                                            "value": 1978,
+                                            "value": "1978",
                                           },
                                           Object {
                                             "label": 1981,
-                                            "value": 1980,
+                                            "value": "1980",
                                           },
                                           Object {
                                             "label": 1983,
-                                            "value": 1982,
+                                            "value": "1982",
                                           },
                                           Object {
                                             "label": 1985,
-                                            "value": 1984,
+                                            "value": "1984",
                                           },
                                           Object {
                                             "label": 1987,
-                                            "value": 1986,
+                                            "value": "1986",
                                           },
                                           Object {
                                             "label": 1989,
-                                            "value": 1988,
+                                            "value": "1988",
                                           },
                                           Object {
                                             "label": 1991,
-                                            "value": 1990,
+                                            "value": "1990",
                                           },
                                           Object {
                                             "label": 1993,
-                                            "value": 1992,
+                                            "value": "1992",
                                           },
                                           Object {
                                             "label": 1995,
-                                            "value": 1994,
+                                            "value": "1994",
                                           },
                                           Object {
                                             "label": 1997,
-                                            "value": 1996,
+                                            "value": "1996",
                                           },
                                           Object {
                                             "label": 1999,
-                                            "value": 1998,
+                                            "value": "1998",
                                           },
                                           Object {
                                             "label": 2001,
-                                            "value": 2000,
+                                            "value": "2000",
                                           },
                                           Object {
                                             "label": 2003,
-                                            "value": 2002,
+                                            "value": "2002",
                                           },
                                           Object {
                                             "label": 2005,
-                                            "value": 2004,
+                                            "value": "2004",
                                           },
                                           Object {
                                             "label": 2007,
-                                            "value": 2006,
+                                            "value": "2006",
                                           },
                                           Object {
                                             "label": 2009,
-                                            "value": 2008,
+                                            "value": "2008",
                                           },
                                           Object {
                                             "label": 2011,
-                                            "value": 2010,
+                                            "value": "2010",
                                           },
                                           Object {
                                             "label": 2013,
-                                            "value": 2012,
+                                            "value": "2012",
                                           },
                                           Object {
                                             "label": 2015,
-                                            "value": 2014,
+                                            "value": "2014",
                                           },
                                           Object {
                                             "label": 2017,
-                                            "value": 2016,
+                                            "value": "2016",
                                           },
                                           Object {
                                             "label": 2019,
-                                            "value": 2018,
+                                            "value": "2018",
                                           },
                                         ],
                                         "pageSize": 5,
@@ -7888,103 +7888,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                           Array [
                                             Object {
                                               "label": 1971,
-                                              "value": 1970,
+                                              "value": "1970",
                                             },
                                             Object {
                                               "label": 1973,
-                                              "value": 1972,
+                                              "value": "1972",
                                             },
                                             Object {
                                               "label": 1975,
-                                              "value": 1974,
+                                              "value": "1974",
                                             },
                                             Object {
                                               "label": 1977,
-                                              "value": 1976,
+                                              "value": "1976",
                                             },
                                             Object {
                                               "label": 1979,
-                                              "value": 1978,
+                                              "value": "1978",
                                             },
                                             Object {
                                               "label": 1981,
-                                              "value": 1980,
+                                              "value": "1980",
                                             },
                                             Object {
                                               "label": 1983,
-                                              "value": 1982,
+                                              "value": "1982",
                                             },
                                             Object {
                                               "label": 1985,
-                                              "value": 1984,
+                                              "value": "1984",
                                             },
                                             Object {
                                               "label": 1987,
-                                              "value": 1986,
+                                              "value": "1986",
                                             },
                                             Object {
                                               "label": 1989,
-                                              "value": 1988,
+                                              "value": "1988",
                                             },
                                             Object {
                                               "label": 1991,
-                                              "value": 1990,
+                                              "value": "1990",
                                             },
                                             Object {
                                               "label": 1993,
-                                              "value": 1992,
+                                              "value": "1992",
                                             },
                                             Object {
                                               "label": 1995,
-                                              "value": 1994,
+                                              "value": "1994",
                                             },
                                             Object {
                                               "label": 1997,
-                                              "value": 1996,
+                                              "value": "1996",
                                             },
                                             Object {
                                               "label": 1999,
-                                              "value": 1998,
+                                              "value": "1998",
                                             },
                                             Object {
                                               "label": 2001,
-                                              "value": 2000,
+                                              "value": "2000",
                                             },
                                             Object {
                                               "label": 2003,
-                                              "value": 2002,
+                                              "value": "2002",
                                             },
                                             Object {
                                               "label": 2005,
-                                              "value": 2004,
+                                              "value": "2004",
                                             },
                                             Object {
                                               "label": 2007,
-                                              "value": 2006,
+                                              "value": "2006",
                                             },
                                             Object {
                                               "label": 2009,
-                                              "value": 2008,
+                                              "value": "2008",
                                             },
                                             Object {
                                               "label": 2011,
-                                              "value": 2010,
+                                              "value": "2010",
                                             },
                                             Object {
                                               "label": 2013,
-                                              "value": 2012,
+                                              "value": "2012",
                                             },
                                             Object {
                                               "label": 2015,
-                                              "value": 2014,
+                                              "value": "2014",
                                             },
                                             Object {
                                               "label": 2017,
-                                              "value": 2016,
+                                              "value": "2016",
                                             },
                                             Object {
                                               "label": 2019,
-                                              "value": 2018,
+                                              "value": "2018",
                                             },
                                           ]
                                         }
@@ -8030,103 +8030,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": 1971,
-                                                "value": 1970,
+                                                "value": "1970",
                                               },
                                               Object {
                                                 "label": 1973,
-                                                "value": 1972,
+                                                "value": "1972",
                                               },
                                               Object {
                                                 "label": 1975,
-                                                "value": 1974,
+                                                "value": "1974",
                                               },
                                               Object {
                                                 "label": 1977,
-                                                "value": 1976,
+                                                "value": "1976",
                                               },
                                               Object {
                                                 "label": 1979,
-                                                "value": 1978,
+                                                "value": "1978",
                                               },
                                               Object {
                                                 "label": 1981,
-                                                "value": 1980,
+                                                "value": "1980",
                                               },
                                               Object {
                                                 "label": 1983,
-                                                "value": 1982,
+                                                "value": "1982",
                                               },
                                               Object {
                                                 "label": 1985,
-                                                "value": 1984,
+                                                "value": "1984",
                                               },
                                               Object {
                                                 "label": 1987,
-                                                "value": 1986,
+                                                "value": "1986",
                                               },
                                               Object {
                                                 "label": 1989,
-                                                "value": 1988,
+                                                "value": "1988",
                                               },
                                               Object {
                                                 "label": 1991,
-                                                "value": 1990,
+                                                "value": "1990",
                                               },
                                               Object {
                                                 "label": 1993,
-                                                "value": 1992,
+                                                "value": "1992",
                                               },
                                               Object {
                                                 "label": 1995,
-                                                "value": 1994,
+                                                "value": "1994",
                                               },
                                               Object {
                                                 "label": 1997,
-                                                "value": 1996,
+                                                "value": "1996",
                                               },
                                               Object {
                                                 "label": 1999,
-                                                "value": 1998,
+                                                "value": "1998",
                                               },
                                               Object {
                                                 "label": 2001,
-                                                "value": 2000,
+                                                "value": "2000",
                                               },
                                               Object {
                                                 "label": 2003,
-                                                "value": 2002,
+                                                "value": "2002",
                                               },
                                               Object {
                                                 "label": 2005,
-                                                "value": 2004,
+                                                "value": "2004",
                                               },
                                               Object {
                                                 "label": 2007,
-                                                "value": 2006,
+                                                "value": "2006",
                                               },
                                               Object {
                                                 "label": 2009,
-                                                "value": 2008,
+                                                "value": "2008",
                                               },
                                               Object {
                                                 "label": 2011,
-                                                "value": 2010,
+                                                "value": "2010",
                                               },
                                               Object {
                                                 "label": 2013,
-                                                "value": 2012,
+                                                "value": "2012",
                                               },
                                               Object {
                                                 "label": 2015,
-                                                "value": 2014,
+                                                "value": "2014",
                                               },
                                               Object {
                                                 "label": 2017,
-                                                "value": 2016,
+                                                "value": "2016",
                                               },
                                               Object {
                                                 "label": 2019,
-                                                "value": 2018,
+                                                "value": "2018",
                                               },
                                             ],
                                             "pageSize": 5,
@@ -8199,103 +8199,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                           Array [
                                             Object {
                                               "label": 1971,
-                                              "value": 1970,
+                                              "value": "1970",
                                             },
                                             Object {
                                               "label": 1973,
-                                              "value": 1972,
+                                              "value": "1972",
                                             },
                                             Object {
                                               "label": 1975,
-                                              "value": 1974,
+                                              "value": "1974",
                                             },
                                             Object {
                                               "label": 1977,
-                                              "value": 1976,
+                                              "value": "1976",
                                             },
                                             Object {
                                               "label": 1979,
-                                              "value": 1978,
+                                              "value": "1978",
                                             },
                                             Object {
                                               "label": 1981,
-                                              "value": 1980,
+                                              "value": "1980",
                                             },
                                             Object {
                                               "label": 1983,
-                                              "value": 1982,
+                                              "value": "1982",
                                             },
                                             Object {
                                               "label": 1985,
-                                              "value": 1984,
+                                              "value": "1984",
                                             },
                                             Object {
                                               "label": 1987,
-                                              "value": 1986,
+                                              "value": "1986",
                                             },
                                             Object {
                                               "label": 1989,
-                                              "value": 1988,
+                                              "value": "1988",
                                             },
                                             Object {
                                               "label": 1991,
-                                              "value": 1990,
+                                              "value": "1990",
                                             },
                                             Object {
                                               "label": 1993,
-                                              "value": 1992,
+                                              "value": "1992",
                                             },
                                             Object {
                                               "label": 1995,
-                                              "value": 1994,
+                                              "value": "1994",
                                             },
                                             Object {
                                               "label": 1997,
-                                              "value": 1996,
+                                              "value": "1996",
                                             },
                                             Object {
                                               "label": 1999,
-                                              "value": 1998,
+                                              "value": "1998",
                                             },
                                             Object {
                                               "label": 2001,
-                                              "value": 2000,
+                                              "value": "2000",
                                             },
                                             Object {
                                               "label": 2003,
-                                              "value": 2002,
+                                              "value": "2002",
                                             },
                                             Object {
                                               "label": 2005,
-                                              "value": 2004,
+                                              "value": "2004",
                                             },
                                             Object {
                                               "label": 2007,
-                                              "value": 2006,
+                                              "value": "2006",
                                             },
                                             Object {
                                               "label": 2009,
-                                              "value": 2008,
+                                              "value": "2008",
                                             },
                                             Object {
                                               "label": 2011,
-                                              "value": 2010,
+                                              "value": "2010",
                                             },
                                             Object {
                                               "label": 2013,
-                                              "value": 2012,
+                                              "value": "2012",
                                             },
                                             Object {
                                               "label": 2015,
-                                              "value": 2014,
+                                              "value": "2014",
                                             },
                                             Object {
                                               "label": 2017,
-                                              "value": 2016,
+                                              "value": "2016",
                                             },
                                             Object {
                                               "label": 2019,
-                                              "value": 2018,
+                                              "value": "2018",
                                             },
                                           ]
                                         }
@@ -8341,103 +8341,103 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                                             "options": Array [
                                               Object {
                                                 "label": 1971,
-                                                "value": 1970,
+                                                "value": "1970",
                                               },
                                               Object {
                                                 "label": 1973,
-                                                "value": 1972,
+                                                "value": "1972",
                                               },
                                               Object {
                                                 "label": 1975,
-                                                "value": 1974,
+                                                "value": "1974",
                                               },
                                               Object {
                                                 "label": 1977,
-                                                "value": 1976,
+                                                "value": "1976",
                                               },
                                               Object {
                                                 "label": 1979,
-                                                "value": 1978,
+                                                "value": "1978",
                                               },
                                               Object {
                                                 "label": 1981,
-                                                "value": 1980,
+                                                "value": "1980",
                                               },
                                               Object {
                                                 "label": 1983,
-                                                "value": 1982,
+                                                "value": "1982",
                                               },
                                               Object {
                                                 "label": 1985,
-                                                "value": 1984,
+                                                "value": "1984",
                                               },
                                               Object {
                                                 "label": 1987,
-                                                "value": 1986,
+                                                "value": "1986",
                                               },
                                               Object {
                                                 "label": 1989,
-                                                "value": 1988,
+                                                "value": "1988",
                                               },
                                               Object {
                                                 "label": 1991,
-                                                "value": 1990,
+                                                "value": "1990",
                                               },
                                               Object {
                                                 "label": 1993,
-                                                "value": 1992,
+                                                "value": "1992",
                                               },
                                               Object {
                                                 "label": 1995,
-                                                "value": 1994,
+                                                "value": "1994",
                                               },
                                               Object {
                                                 "label": 1997,
-                                                "value": 1996,
+                                                "value": "1996",
                                               },
                                               Object {
                                                 "label": 1999,
-                                                "value": 1998,
+                                                "value": "1998",
                                               },
                                               Object {
                                                 "label": 2001,
-                                                "value": 2000,
+                                                "value": "2000",
                                               },
                                               Object {
                                                 "label": 2003,
-                                                "value": 2002,
+                                                "value": "2002",
                                               },
                                               Object {
                                                 "label": 2005,
-                                                "value": 2004,
+                                                "value": "2004",
                                               },
                                               Object {
                                                 "label": 2007,
-                                                "value": 2006,
+                                                "value": "2006",
                                               },
                                               Object {
                                                 "label": 2009,
-                                                "value": 2008,
+                                                "value": "2008",
                                               },
                                               Object {
                                                 "label": 2011,
-                                                "value": 2010,
+                                                "value": "2010",
                                               },
                                               Object {
                                                 "label": 2013,
-                                                "value": 2012,
+                                                "value": "2012",
                                               },
                                               Object {
                                                 "label": 2015,
-                                                "value": 2014,
+                                                "value": "2014",
                                               },
                                               Object {
                                                 "label": 2017,
-                                                "value": 2016,
+                                                "value": "2016",
                                               },
                                               Object {
                                                 "label": 2019,
-                                                "value": 2018,
+                                                "value": "2018",
                                               },
                                             ],
                                             "pageSize": 5,
@@ -10017,10 +10017,12 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                     }
                   >
                     <Button
+                      disabled={true}
                       onClick={[Function]}
                     >
                       <button
                         className="button undefined"
+                        disabled={true}
                         onClick={[Function]}
                       >
                         Save

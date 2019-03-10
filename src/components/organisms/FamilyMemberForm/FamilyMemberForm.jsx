@@ -7,6 +7,7 @@ import Button from 'components/atoms/Button'
 import Select from 'components/atoms/Select'
 
 import { days, years, months } from 'utils/dates'
+import { getInitials } from 'utils/filters'
 
 import { familyMembers, row } from './FamilyMemberForm.module.scss'
 
@@ -20,7 +21,22 @@ const FamilyMemberForm = ({ onSave }) => {
   }
   const [member, setMember] = useState(initialState)
 
-  const { firstName, lastName, email } = member
+  const {
+    firstName,
+    lastName,
+    email,
+    gender,
+    dateOfBirth: { day, month, year },
+  } = member
+  const disableButton = !(
+    !!firstName &&
+    !!lastName &&
+    !!email &&
+    !!gender &&
+    !!day &&
+    !!month &&
+    !!year
+  )
 
   const handleInputChange = event => {
     const { name, value } = event.target
@@ -33,8 +49,26 @@ const FamilyMemberForm = ({ onSave }) => {
     if (input.name === 'gender') {
       setMember({ ...member, [name]: value })
     } else {
-      setMember({ ...member, dateOfBirth: { [name]: value } })
+      setMember({
+        ...member,
+        dateOfBirth: { ...member.dateOfBirth, [name]: value },
+      })
     }
+  }
+
+  const onSaveForm = () => {
+    const newMember = {
+      avatar: `https://via.placeholder.com/150/7e5ced/FFFFFF/?text=${getInitials(
+        `${firstName} ${lastName}`
+      )}`,
+      dateOfBirth: `${year}-${month}-${day}`,
+      firstName,
+      lastName,
+      email,
+    }
+
+    onSave(newMember)
+    setMember(initialState)
   }
 
   return (
@@ -131,7 +165,9 @@ const FamilyMemberForm = ({ onSave }) => {
       </Row>
       <Row>
         <Col>
-          <Button onClick={() => onSave(member)}>Save</Button>
+          <Button disabled={disableButton} onClick={onSaveForm}>
+            Save
+          </Button>
         </Col>
       </Row>
     </Container>
