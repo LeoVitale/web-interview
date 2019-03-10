@@ -3,7 +3,7 @@
 ## About Redux
 In this test I used some goods approachs about Redux
 
-* Ducks Modular Redux - [erikras]([https://github.com/erikras](https://github.com/erikras/ducks-modular-redux))
+* Ducks Modular Redux - [erikras]([https://github.com/erikras](https://github.com/erikras/ducks-modular-redux)
 * Custom Middleware for Api Fetch
 
 ## About React
