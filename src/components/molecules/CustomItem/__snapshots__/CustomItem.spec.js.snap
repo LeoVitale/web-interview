@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<CustomItem /> should render CustomItem as expected 1`] = `
-<UserItem>
+<CustomItem>
   <div
     className="userItem"
   >
@@ -48,5 +48,5 @@ exports[`<CustomItem /> should render CustomItem as expected 1`] = `
       className="actions"
     />
   </div>
-</UserItem>
+</CustomItem>
 `;

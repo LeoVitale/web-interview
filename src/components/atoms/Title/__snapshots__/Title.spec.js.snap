@@ -2,10 +2,10 @@
 
 exports[`<Title /> should render Title as expected 1`] = `
 <Title>
-  <h3>
+  <h1>
     <span
       className="labelSpan"
     />
-  </h3>
+  </h1>
 </Title>
 `;
