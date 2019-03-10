@@ -12,11 +12,26 @@ import FamilyMembers from 'containers/FamilyMembers'
 import './App.scss'
 
 class App extends Component {
+  state = {
+    fetchedUser: false,
+  }
   componentDidMount() {
     const { loadUser } = this.props
     loadUser('1')
-    // loadUserFamilyMembers('1')
-    // loadAppointments()
+  }
+
+  static getDerivedStateFromProps(nextProps, prevState) {
+    const { app, addMember, changeMember, loadUserFamilyMembers } = nextProps
+
+    if (app.user.id && !prevState.fetchedUser) {
+      addMember(app.user)
+      changeMember(app.user.id)
+      loadUserFamilyMembers(app.user.id)
+      return {
+        fetchedUser: true,
+      }
+    }
+    return null
   }
 
   render() {
@@ -42,6 +57,8 @@ class App extends Component {
 
 App.propTypes = {
   loadUser: PropTypes.func.isRequired,
+  addMember: PropTypes.func.isRequired,
+  changeMember: PropTypes.func.isRequired,
   loadUserFamilyMembers: PropTypes.func.isRequired,
   loadAppointments: PropTypes.func.isRequired,
   app: PropTypes.object.isRequired,
