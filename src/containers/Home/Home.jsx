@@ -3,12 +3,13 @@ import PropTypes from 'prop-types'
 import FamilyMembers from 'containers/FamilyMembers'
 import { findMember } from 'utils/filters'
 
+import Title from 'components/atoms/Title'
 import MenuItem from 'components/atoms/MenuItem'
 import Button from 'components/atoms/Button'
 import UserItem from 'components/molecules/UserItem'
 import Modal from 'components/molecules/Modal'
 
-import { home, menu, menuItem } from './Home.module.scss'
+import { home, menu, menuItem, divider } from './Home.module.scss'
 
 class Home extends Component {
   state = {
@@ -43,12 +44,15 @@ class Home extends Component {
             </Button>
           }
         />
+        <hr className={divider} />
         <nav className={menu}>
+          <Title label="Account" tag="h3"/>
           <MenuItem className={menuItem} label="Family" to="/family-members" />
+          <Title label="Clinical Records" tag="h3"/>
           <MenuItem className={menuItem} label="Appointments" to="/" />
           <MenuItem className={menuItem} label="Personal Details" to="/" />
         </nav>
-        <Modal title="Family" open={isModalOpen} onClose={this.openFamilyModal}>
+        <Modal open={isModalOpen} onClose={this.openFamilyModal}>
           <FamilyMembers onChangeMember={this.onChangeMember} />
         </Modal>
       </div>

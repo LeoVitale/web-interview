@@ -68,13 +68,17 @@ class NewAppointments extends Component {
   }
 
   render() {
-    const { symptoms, hour, isModalOpen } = this.state
+    const { symptoms, hour, type, isModalOpen } = this.state
     const {
       app: { memberSelected, user },
       appointments,
       family: { members },
     } = this.props
     const { availableSlots, hasNewAppointment } = appointments
+    const disableButton = !(
+      !!hour &&
+      !!type
+    )
 
     if (hasNewAppointment) {
       return (
@@ -88,7 +92,8 @@ class NewAppointments extends Component {
 
     return (
       <div>
-        <h1>New Appointments</h1>
+        <Title label="New Appointment" tag="h1"/>
+        <Title/>
         {user && (
           <UserItem
             user={findMember(memberSelected, user, members)}
@@ -100,7 +105,7 @@ class NewAppointments extends Component {
           />
         )}
         <hr className={divider} />
-        <Title icon="clock" label="Date & Time" />
+        <Title icon="clock" label="Date & Time" tag="h3"/>
         <div className={listHour}>
           {availableSlots.map(slot => (
             <Radio
@@ -113,7 +118,7 @@ class NewAppointments extends Component {
             />
           ))}
         </div>
-        <Title icon="notes" label="Notes" />
+        <Title icon="notes" label="Notes" tag="h3"/>
         <div>
           <Select
             id="type"
@@ -126,7 +131,7 @@ class NewAppointments extends Component {
             ]}
           />
         </div>
-        <Title icon="notes" label="Notes" />
+        <Title icon="notes" label="Notes" tag="h3"/>
         <div>
           <TextArea
             name="symptoms"
@@ -136,11 +141,10 @@ class NewAppointments extends Component {
             onChange={this.onChangeForm}
           />
         </div>
-        <Button onClick={this.onClickBook} className={bookBtn}>
+        <Button disabled={disableButton} onClick={this.onClickBook} className={bookBtn}>
           Book
         </Button>
         <Modal
-          title="Family"
           open={isModalOpen}
           onClose={this.toggleFamilyModal}
         >

@@ -20,9 +20,11 @@
 
   .header {
     display: flex;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0;
+    justify-content: flex-end;
+    &.alignBetween {
+      justify-content: space-between;
+    }
   }
 
   .content {

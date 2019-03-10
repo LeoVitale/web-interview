@@ -3,12 +3,13 @@ import PropTypes from 'prop-types'
 import Icon from 'components/atoms/Icon'
 import { labelSpan, titleIcon } from './Title.module.scss'
 
-const Title = ({ icon, label }) => {
+const Title = ({ icon, label, tag }) => {
+  const Component = tag ? tag : 'h1'
   return (
-    <h3>
+    <Component>
       {icon && <Icon className={titleIcon} type={icon} />}
       <span className={labelSpan}>{label}</span>
-    </h3>
+    </Component>
   )
 }
 

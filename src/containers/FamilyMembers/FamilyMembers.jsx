@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
+import Title from 'components/atoms/Title'
 import Button from 'components/atoms/Button'
 import Modal from 'components/molecules/Modal'
 import UserItem from 'components/molecules/UserItem'
@@ -38,6 +39,7 @@ class FamilyMembers extends Component {
 
     return (
       <div>
+        <Title label="Family Members" tag="h1"/>
         {members.map(member => (
           <Button
             key={member.id}
