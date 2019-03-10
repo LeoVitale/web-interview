@@ -21,7 +21,7 @@ const CustomItem = ({ action, header, avatar, subHeader }) => {
   return (
     <div className={userItem}>
       <div className={userData}>
-        <Avatar {...avatarProps} />
+        <Avatar size="small" {...avatarProps} />
         <UserHeader {...userProps} />
       </div>
       <div className={actions}>{action}</div>

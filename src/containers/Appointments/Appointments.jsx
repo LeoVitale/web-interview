@@ -21,19 +21,25 @@ class Appointments extends Component {
   render() {
     const {
       appointments: { booked },
-      family: { members }
+      family: { members },
     } = this.props
-
 
     return (
       <div>
-        <Title label="Appointments" tag="h1"/>
-        <Title label="Upcoming" tag="h3"/>
+        <Title label="Appointments" tag="h1" />
+        <Title label="Upcoming" tag="h3" />
         <div>
           {booked.map(item => {
-            const { dateTime, type, id } = item
-            const member = members.find(member => member.id === id)
-            return <CustomItem avatar={member.avatar} key={id} header={type} subHeader={moment(dateTime).format('LLLL')} />
+            const { dateTime, type, id, userId } = item
+            const member = members.find(member => member.id === userId)
+            return (
+              <CustomItem
+                avatar={member && member.avatar}
+                key={id}
+                header={type}
+                subHeader={moment(dateTime).format('LLLL')}
+              />
+            )
           })}
         </div>
         <Button className={addAppointments} onClick={this.navigateToBook}>
@@ -48,7 +54,7 @@ Appointments.propTypes = {
   appointments: PropTypes.object.isRequired,
   loadAppointments: PropTypes.func.isRequired,
   family: PropTypes.object.isRequired,
-  history: PropTypes.object.isRequired
+  history: PropTypes.object.isRequired,
 }
 
 export default Appointments

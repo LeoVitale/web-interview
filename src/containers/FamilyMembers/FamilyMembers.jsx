@@ -27,7 +27,8 @@ class FamilyMembers extends Component {
   }
 
   selectMember = id => () => {
-    const { changeMember } = this.props
+    const { changeMember, onChangeMember } = this.props
+    onChangeMember()
     changeMember(id)
   }
 
@@ -39,7 +40,7 @@ class FamilyMembers extends Component {
 
     return (
       <div>
-        <Title label="Family Members" tag="h1"/>
+        <Title label="Family Members" tag="h1" />
         {members.map(member => (
           <Button
             key={member.id}
@@ -69,6 +70,7 @@ FamilyMembers.propTypes = {
   family: PropTypes.object.isRequired,
   changeMember: PropTypes.func.isRequired,
   addNewMember: PropTypes.func.isRequired,
+  onChangeMember: PropTypes.func.isRequired,
 }
 
 export default FamilyMembers

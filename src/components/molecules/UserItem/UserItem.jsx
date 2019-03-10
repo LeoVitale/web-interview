@@ -24,7 +24,7 @@ const UserItem = ({ action, user, header, subHeader }) => {
   return (
     <div className={userItem}>
       <div className={userData}>
-        <Avatar {...avatarProps} />
+        <Avatar size="small" {...avatarProps} />
         <UserHeader {...userProps} />
       </div>
       <div className={actions}>{action}</div>

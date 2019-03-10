@@ -1,12 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { avatar, small, medium } from './Avatar.module.scss'
+import { avatar, small, medium, xSmall } from './Avatar.module.scss'
 
 const Avatar = ({ img, name, icon, size, className }) => {
   const getSize = size => {
     if (size === 'small') {
       return small
-    } else {
+    } else if (size === 'xSmall') {
+      return xSmall
+    }else {
       return medium
     }
   }

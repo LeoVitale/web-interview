@@ -9,10 +9,10 @@ const Header = ({ logo, user }) => {
     <header className={appHeader}>
       <img src={logo} className={appLogo} alt="logo" />
       <nav className={menu}>
-        <MenuItem label="Book" to="/new-appointments" />
-        <MenuItem label="Appointments" to="/appointments" />
-        <MenuItem label="Family Members" to="/family-members" />
-        {user && <Avatar size="small" img={user.avatar} />}
+        <MenuItem icon="book" label="Book" to="/new-appointments" />
+        <MenuItem icon="appointments" label="Appointments" to="/appointments" />
+        <MenuItem icon="family" label="Family Members" to="/family-members" />
+        {user && <Avatar size="xSmall" img={user.avatar} />}
       </nav>
     </header>
   )

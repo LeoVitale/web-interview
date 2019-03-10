@@ -21,9 +21,7 @@ class Home extends Component {
     this.setState({ isModalOpen: !isModalOpen })
   }
 
-  onChangeMember = id => {
-    const { changeMember } = this.props
-    changeMember(id)
+  onChangeMember = () => {
     this.openFamilyModal()
   }
 
@@ -46,9 +44,9 @@ class Home extends Component {
         />
         <hr className={divider} />
         <nav className={menu}>
-          <Title label="Account" tag="h3"/>
+          <Title label="Account" tag="h3" />
           <MenuItem className={menuItem} label="Family" to="/family-members" />
-          <Title label="Clinical Records" tag="h3"/>
+          <Title label="Clinical Records" tag="h3" />
           <MenuItem className={menuItem} label="Appointments" to="/" />
           <MenuItem className={menuItem} label="Personal Details" to="/" />
         </nav>

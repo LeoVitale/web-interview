@@ -7,7 +7,7 @@ import { menuItem, iconItem } from './MenuItem.module.scss'
 const MenuItem = ({ className, icon, label, to }) => {
   return (
     <Link className={`${menuItem} ${className}`} to={to}>
-      <Icon className={iconItem} />
+      <Icon type={icon} className={iconItem} />
       <span>{label}</span>
     </Link>
   )
