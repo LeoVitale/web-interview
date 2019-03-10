@@ -25,15 +25,16 @@ exports[`<MenuItem /> should render MenuItem as expected 1`] = `
     }
   >
     <MenuItem
+      className=""
       to=""
     >
       <Link
-        className="menuItem"
+        className="menuItem "
         replace={false}
         to=""
       >
         <a
-          className="menuItem"
+          className="menuItem "
           href="/"
           onClick={[Function]}
         >

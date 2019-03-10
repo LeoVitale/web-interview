@@ -2,11 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles, { userHeader } from './UserHeader.module.scss'
 
-const UserHeader = ({ title, subheader }) => {
+const UserHeader = ({ title, subHeader }) => {
   return (
     <div className={userHeader}>
       {title && <span className={styles.title}>{title}</span>}
-      {subheader && <span className={styles.subheader}>{subheader}</span>}
+      {subHeader && <span className={styles.subheader}>{subHeader}</span>}
     </div>
   )
 }
