@@ -3,7 +3,7 @@ const clientMiddleware = ({ dispatch, getState }) => next => action => {
     return action(dispatch, getState)
   }
 
-  const { endpoint, types, ...rest } = action
+  const { endpoint, method, body, callback, types, ...rest } = action
   if (!endpoint) {
     return next(action)
   }
@@ -11,11 +11,28 @@ const clientMiddleware = ({ dispatch, getState }) => next => action => {
   const [REQUEST, SUCCESS, FAILURE] = types
   next({ ...rest, type: REQUEST })
 
-  const actionPromise = fetch(endpoint)
+  const params = body
+    ? {
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(body),
+      }
+    : null
+
+  const actionPromise = fetch(endpoint, {
+    method: method ? method : 'GET',
+    ...params,
+  })
   actionPromise
     .then(res => res.json())
     .then(
-      payload => next({ ...rest, payload, type: SUCCESS }),
+      payload => {
+        if (callback) {
+          callback(payload)
+        }
+        return next({ ...rest, payload, type: SUCCESS })
+      },
       error => next({ ...rest, error, type: FAILURE })
     )
     .catch(error => {
