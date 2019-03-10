@@ -1,12 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Icon from 'components/atoms/Icon'
-import { labelSpan } from './Title.module.scss'
+import { labelSpan, titleIcon } from './Title.module.scss'
 
 const Title = ({ icon, label }) => {
   return (
     <h3>
-      <Icon type={icon} />
+      {icon && <Icon className={titleIcon} type={icon} />}
       <span className={labelSpan}>{label}</span>
     </h3>
   )
