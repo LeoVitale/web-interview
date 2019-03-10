@@ -6,7 +6,7 @@ export const years = startYear => {
   startYear = startYear || 1980
 
   while (startYear <= currentYear) {
-    years.push({ value: startYear++, label: startYear++ })
+    years.push({ value: `${startYear++}`, label: startYear++ })
   }
   return years
 }
@@ -26,4 +26,9 @@ export const days = () => {
 }
 
 export const months = () =>
-  moment.months().map(month => ({ value: month, label: month }))
+  moment.months().map((month, index) => {
+    if (index < 10) {
+      return { value: `0${index + 1}`, label: month }
+    }
+    return { value: `${index + 1}`, label: month }
+  })
