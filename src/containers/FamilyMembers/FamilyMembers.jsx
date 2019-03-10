@@ -1,27 +1,17 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+
 import Button from 'components/atoms/Button'
 import Modal from 'components/molecules/Modal'
 import UserItem from 'components/molecules/UserItem'
 import FamilyMemberForm from 'components/organisms/FamilyMemberForm'
+
 import { addFamilyMember } from './FamilyMembers.module.scss'
 
 class FamilyMembers extends Component {
   state = {
     isModalOpen: false,
-    fetchedMembers: false
-  }
-
-  static getDerivedStateFromProps(nextProps, prevState) {
-    const {app, loadUserFamilyMembers} = nextProps
-
-    if (app.user.id && !prevState.fetchedMembers) {
-      loadUserFamilyMembers(app.user.id)
-      return {
-        fetchedMembers: true
-      }
-    }
-    return null;
+    fetchedMembers: false,
   }
 
   toggleModal = () => {
@@ -30,7 +20,14 @@ class FamilyMembers extends Component {
   }
 
   saveNewMember = member => {
+    const { addNewMember, user } = this.props
+    addNewMember(user.id, member)
     this.toggleModal()
+  }
+
+  selectMember = id => () => {
+    const { changeMember } = this.props
+    changeMember(id)
   }
 
   render() {
@@ -42,12 +39,16 @@ class FamilyMembers extends Component {
     return (
       <div>
         {members.map(member => (
-          <Button key={member.id} className={addFamilyMember}>
+          <Button
+            key={member.id}
+            className={addFamilyMember}
+            onClick={this.selectMember(member.id)}
+          >
             <UserItem user={member} />
           </Button>
         ))}
         <Button className={addFamilyMember} onClick={this.toggleModal}>
-          <UserItem />
+          <UserItem header="Add Family Member" />
         </Button>
         <Modal
           title="Add Family Member"
@@ -62,10 +63,10 @@ class FamilyMembers extends Component {
 }
 
 FamilyMembers.propTypes = {
-  app: PropTypes.object.isRequired,
+  user: PropTypes.object.isRequired,
   family: PropTypes.object.isRequired,
-  loadMember: PropTypes.func.isRequired,
-  loadUserFamilyMembers: PropTypes.func.isRequired,
+  changeMember: PropTypes.func.isRequired,
+  addNewMember: PropTypes.func.isRequired,
 }
 
 export default FamilyMembers
