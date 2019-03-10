@@ -10,7 +10,7 @@ const Header = ({ logo, user }) => {
       <img src={logo} className={appLogo} alt="logo" />
       <nav className={menu}>
         <MenuItem label="Book" to="/new-appointments" />
-        <MenuItem label="Appointments" to="/" />
+        <MenuItem label="Appointments" to="/appointments" />
         <MenuItem label="Family Members" to="/family-members" />
         {user && <Avatar size="small" img={user.avatar} />}
       </nav>

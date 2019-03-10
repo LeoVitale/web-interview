@@ -36,16 +36,17 @@ exports[`<Header /> should render Header as expected 1`] = `
           className="menu"
         >
           <MenuItem
+            className=""
             label="Book"
             to="/new-appointments"
           >
             <Link
-              className="menuItem"
+              className="menuItem "
               replace={false}
               to="/new-appointments"
             >
               <a
-                className="menuItem"
+                className="menuItem "
                 href="/new-appointments"
                 onClick={[Function]}
               >
@@ -73,17 +74,18 @@ exports[`<Header /> should render Header as expected 1`] = `
             </Link>
           </MenuItem>
           <MenuItem
+            className=""
             label="Appointments"
-            to="/"
+            to="/appointments"
           >
             <Link
-              className="menuItem"
+              className="menuItem "
               replace={false}
-              to="/"
+              to="/appointments"
             >
               <a
-                className="menuItem"
-                href="/"
+                className="menuItem "
+                href="/appointments"
                 onClick={[Function]}
               >
                 <Icon
@@ -110,16 +112,17 @@ exports[`<Header /> should render Header as expected 1`] = `
             </Link>
           </MenuItem>
           <MenuItem
+            className=""
             label="Family Members"
             to="/family-members"
           >
             <Link
-              className="menuItem"
+              className="menuItem "
               replace={false}
               to="/family-members"
             >
               <a
-                className="menuItem"
+                className="menuItem "
                 href="/family-members"
                 onClick={[Function]}
               >
