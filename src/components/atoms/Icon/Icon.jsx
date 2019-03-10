@@ -1,9 +1,14 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { svgIcon } from './Icon.module.scss'
 
 const Icon = ({ type, className }) => {
   let vector
   switch (type) {
+    case 'user':
+      vector =
+        'M4.78 20.547h14.317c-.63-3.922-2.93-5.797-7.078-5.797s-6.505 1.879-7.24 5.797zm-1.618.66c.637-5.24 3.659-7.957 8.857-7.957 5.205 0 8.17 2.728 8.676 7.975a.75.75 0 0 1-.747.822H3.906a.75.75 0 0 1-.744-.84zM12 11.75a4.75 4.75 0 1 1 0-9.5 4.75 4.75 0 0 1 0 9.5zm0-1.5a3.25 3.25 0 1 0 0-6.5 3.25 3.25 0 0 0 0 6.5z'
+      break
     case 'arrow':
       vector =
         'M16.216 17.223a.75.75 0 1 0 1.068 1.054l5.928-6.01a.75.75 0 0 0-.001-1.054l-5.928-5.99a.75.75 0 1 0-1.066 1.055l5.407 5.463-5.408 5.482z'
@@ -56,6 +61,16 @@ const Icon = ({ type, className }) => {
       <path d={vector} />
     </svg>
   )
+}
+
+Icon.propTypes = {
+  type: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+}
+
+Icon.defaultProps = {
+  type: '',
+  className: '',
 }
 
 export default Icon

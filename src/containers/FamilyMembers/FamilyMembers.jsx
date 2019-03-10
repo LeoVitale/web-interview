@@ -48,7 +48,7 @@ class FamilyMembers extends Component {
             className={addFamilyMember}
             onClick={this.selectMember(member.id)}
           >
-            <UserItem user={member} action={<Icon type="arrow" />}/>
+            <UserItem user={member} action={<Icon type="arrow" />} />
           </Button>
         ))}
         <Button className={addFamilyMember} onClick={this.toggleModal}>
@@ -71,7 +71,12 @@ FamilyMembers.propTypes = {
   family: PropTypes.object.isRequired,
   changeMember: PropTypes.func.isRequired,
   addNewMember: PropTypes.func.isRequired,
-  onChangeMember: PropTypes.func.isRequired,
+  onChangeMember: PropTypes.func,
+}
+
+FamilyMembers.defaultProps = {
+  user: {},
+  family: {},
 }
 
 export default FamilyMembers

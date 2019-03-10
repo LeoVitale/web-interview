@@ -18,4 +18,9 @@ Title.propTypes = {
   label: PropTypes.string.isRequired,
 }
 
+Title.defaultProps = {
+  icon: '',
+  label: '',
+}
+
 export default Title

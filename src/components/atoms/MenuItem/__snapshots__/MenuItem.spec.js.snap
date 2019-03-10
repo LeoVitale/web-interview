@@ -26,6 +26,7 @@ exports[`<MenuItem /> should render MenuItem as expected 1`] = `
   >
     <MenuItem
       className=""
+      icon=""
       to=""
     >
       <Link
@@ -40,6 +41,7 @@ exports[`<MenuItem /> should render MenuItem as expected 1`] = `
         >
           <Icon
             className="iconItem"
+            type=""
           >
             <svg
               className="svgIcon iconItem"

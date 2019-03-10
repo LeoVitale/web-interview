@@ -12,8 +12,13 @@ const UserHeader = ({ title, subHeader }) => {
 }
 
 UserHeader.propTypes = {
-  title: PropTypes.string.isRequired,
-  subheader: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  subheader: PropTypes.string,
+}
+
+UserHeader.defaultProps = {
+  title: '',
+  subheader: '',
 }
 
 export default UserHeader

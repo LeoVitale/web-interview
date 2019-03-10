@@ -22,9 +22,17 @@ const Avatar = ({ img, name, icon, size, className }) => {
 Avatar.propTypes = {
   img: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  icon: PropTypes.node.isRequired,
+  icon: PropTypes.node,
   size: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
+}
+
+Avatar.defaultProps = {
+  img: '',
+  name: '',
+  icon: '',
+  className: '',
+  size: '',
 }
 
 export default Avatar

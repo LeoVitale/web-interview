@@ -31,8 +31,13 @@ const CustomItem = ({ action, header, avatar, subHeader }) => {
 
 CustomItem.propTypes = {
   action: PropTypes.node,
-  user: PropTypes.object.isRequired,
-  subHeader: PropTypes.string.isRequired,
+  user: PropTypes.object,
+  subHeader: PropTypes.string,
+}
+
+CustomItem.defaultProps = {
+  user: {},
+  subHeader: '',
 }
 
 export default CustomItem

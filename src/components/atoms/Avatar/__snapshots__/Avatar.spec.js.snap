@@ -1,11 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Avatar /> should render Avatar as expected 1`] = `
-<Avatar>
+<Avatar
+  className=""
+  icon=""
+  img=""
+  name=""
+  size=""
+>
   <div
-    className="avatar undefined medium"
+    className="avatar  medium"
   >
-    <img />
+    <img
+      alt=""
+      src=""
+    />
   </div>
 </Avatar>
 `;

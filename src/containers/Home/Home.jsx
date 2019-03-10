@@ -45,10 +45,25 @@ class Home extends Component {
         <hr className={divider} />
         <nav className={menu}>
           <Title label="Account" tag="h3" />
-          <MenuItem className={menuItem} label="Family" to="/family-members" />
+          <MenuItem
+            icon="family"
+            className={menuItem}
+            label="Family"
+            to="/family-members"
+          />
           <Title label="Clinical Records" tag="h3" />
-          <MenuItem className={menuItem} label="Appointments" to="/appointments" />
-          <MenuItem className={menuItem} label="Personal Details" to="/" />
+          <MenuItem
+            icon="appointments"
+            className={menuItem}
+            label="Appointments"
+            to="/appointments"
+          />
+          <MenuItem
+            icon="user"
+            className={menuItem}
+            label="Personal Details"
+            to="/"
+          />
         </nav>
         <Modal open={isModalOpen} onClose={this.openFamilyModal}>
           <FamilyMembers onChangeMember={this.onChangeMember} />

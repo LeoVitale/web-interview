@@ -38,7 +38,11 @@ Modal.propTypes = {
   children: PropTypes.node.isRequired,
   open: PropTypes.bool.isRequired,
   onClose: PropTypes.func.isRequired,
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
+}
+
+Modal.defaultProps = {
+  title: '',
 }
 
 export default Modal

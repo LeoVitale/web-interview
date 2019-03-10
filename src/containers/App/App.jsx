@@ -60,7 +60,6 @@ App.propTypes = {
   addMember: PropTypes.func.isRequired,
   changeMember: PropTypes.func.isRequired,
   loadUserFamilyMembers: PropTypes.func.isRequired,
-  loadAppointments: PropTypes.func.isRequired,
   app: PropTypes.object.isRequired,
 }
 

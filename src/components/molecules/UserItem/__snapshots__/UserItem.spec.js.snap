@@ -1,7 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<UserItem /> should render UserItem as expected 1`] = `
-<UserItem>
+<UserItem
+  action={null}
+  header=""
+  subHeader=""
+>
   <div
     className="userItem"
   >
@@ -16,9 +20,12 @@ exports[`<UserItem /> should render UserItem as expected 1`] = `
             type="add"
           />
         }
+        img=""
+        name=""
+        size="small"
       >
         <div
-          className="avatar addAvatar medium"
+          className="avatar addAvatar small"
         >
           <Icon
             className="addIcon"
@@ -40,7 +47,11 @@ exports[`<UserItem /> should render UserItem as expected 1`] = `
           </Icon>
         </div>
       </Avatar>
-      <UserHeader>
+      <UserHeader
+        subHeader=""
+        subheader=""
+        title=""
+      >
         <div />
       </UserHeader>
     </div>

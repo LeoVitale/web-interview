@@ -34,9 +34,15 @@ const UserItem = ({ action, user, header, subHeader }) => {
 
 UserItem.propTypes = {
   action: PropTypes.node,
-  user: PropTypes.object.isRequired,
-  subHeader: PropTypes.string.isRequired,
-  header: PropTypes.string.isRequired,
+  user: PropTypes.object,
+  subHeader: PropTypes.string,
+  header: PropTypes.string,
+}
+
+UserItem.defaultProps = {
+  action: null,
+  subHeader: '',
+  header: '',
 }
 
 export default UserItem

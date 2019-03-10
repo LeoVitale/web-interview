@@ -14,7 +14,7 @@ const MenuItem = ({ className, icon, label, to }) => {
 }
 
 MenuItem.propTypes = {
-  icon: PropTypes.string.isRequired,
+  icon: PropTypes.string,
   label: PropTypes.string.isRequired,
   to: PropTypes.string.isRequired,
   className: PropTypes.string.isRequired,
@@ -22,6 +22,7 @@ MenuItem.propTypes = {
 
 MenuItem.defaultProps = {
   className: '',
+  icon: '',
 }
 
 export default MenuItem

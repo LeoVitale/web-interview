@@ -1,9 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Button /> should render Button as expected 1`] = `
-<Button>
+<Button
+  className=""
+  disabled={false}
+  type=""
+>
   <button
-    className="button undefined"
+    className="button "
+    disabled={false}
   />
 </Button>
 `;
