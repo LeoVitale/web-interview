@@ -15,6 +15,15 @@
   }
 }
 
+.disabledButton {
+  cursor: initial;
+  background-color: $hover-grey;
+  color: $icon-color;
+  &:hover {
+    background-color: $hover-grey;
+  }
+}
+
 .link {
   cursor: pointer;
   color: $positive;

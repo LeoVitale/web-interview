@@ -1741,7 +1741,7 @@ exports[`<FamilyMemberForm /> should render FamilyMemberForm as expected 1`] = `
                       type=""
                     >
                       <button
-                        className="button "
+                        className="button  disabledButton"
                         disabled={true}
                         onClick={[Function]}
                       >
